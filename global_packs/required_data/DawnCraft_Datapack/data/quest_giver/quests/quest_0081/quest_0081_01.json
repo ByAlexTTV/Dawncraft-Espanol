@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "¡Por favor, trigo!"
+    },
+    "description": {
+      "text": "¿Obtuviste los $(red)trigos$()? Debería haber suficientes en la granja."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Gracias. No tengo mucho que darte... ¿aceptarías esta lana?"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+         "item": "minecraft:wheat"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:white_wool"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_shepherd",
+      "id": "quest_giver:command"
+    }
+  ]
+}

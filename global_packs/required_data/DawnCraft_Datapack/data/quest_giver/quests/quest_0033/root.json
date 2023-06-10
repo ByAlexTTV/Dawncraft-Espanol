@@ -1,0 +1,12 @@
+{
+  "reputation": 7,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Oye chico"
+    },
+    "description": {
+      "text": "¡Hola aventurero! ¿Me prestas un oído?"
+    }
+  }
+}

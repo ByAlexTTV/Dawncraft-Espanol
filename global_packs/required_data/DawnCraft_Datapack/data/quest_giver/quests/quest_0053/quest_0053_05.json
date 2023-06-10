@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0053_04",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "Bueno... ¿Por qué sigues aquí? ¿Esperas algún tipo de recompensa?"
+    }
+  }
+}

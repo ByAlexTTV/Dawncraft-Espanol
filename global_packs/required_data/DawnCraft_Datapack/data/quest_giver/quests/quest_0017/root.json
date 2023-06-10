@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¿Puedes conseguirme $(red)1 Hierba de Alma$()? Se puede encontrar en la Dimensión del Nether."
+    }
+  }
+}

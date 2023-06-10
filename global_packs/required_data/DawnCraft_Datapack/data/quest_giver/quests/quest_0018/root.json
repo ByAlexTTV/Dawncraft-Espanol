@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¿Puedes hacerme un $(red)arco$()? Nuestro herrero de armas está ocupado estos días."
+    }
+  }
+}

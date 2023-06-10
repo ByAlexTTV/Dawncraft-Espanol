@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Hola"
+    },
+    "description": {
+      "text": "Genial, ¿podrías conseguirme $(red)2 cebollas$()?"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Artesanía de Flechas"
+    },
+    "description": {
+      "text": "¿Sabías que la madera de abeto es la mejor para hacer el astil de una flecha? Bueno, no importa de todos modos. ¿Podrías conseguirme algunos troncos de esos? Necesito al menos 4."
+    }
+  }
+}

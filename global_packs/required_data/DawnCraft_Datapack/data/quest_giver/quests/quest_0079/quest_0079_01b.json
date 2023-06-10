@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Solicitud de Exterminio"
+    },
+    "description": {
+      "text": "Los creepers están apareciendo con más frecuencia por aquí durante la noche... No nos hacen daño, pero ahuyentan a nuestras pobres ovejitas. ¿Podrías exterminarlos durante la noche? Te pagaré una vez hayas alcanzado las 6 eliminaciones."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "Aventurero, por favor, ayúdame con algo. Te lo ruego."
+    }
+  }
+}

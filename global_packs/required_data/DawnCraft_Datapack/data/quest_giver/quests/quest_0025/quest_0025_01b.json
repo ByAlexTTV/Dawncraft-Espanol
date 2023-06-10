@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 6,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "Tarea de exterminio"
+    },
+    "description": {
+      "text": "¿Alguna vez te has encontrado con criaturas mitad águila, mitad caballo? Se llaman Grifos. Estas bestias han estado saqueando mis granjas de abejas y aterrorizando a mi familia. ¿Puedes ayudarme a exterminar el Grifo más cercano que puedas encontrar cerca de este pueblo y traerme su pluma? No te preocupes, te pagaré generosamente... Sé cuánto riesgo estás tomando al enfrentarte a una criatura así."
+    }
+  }
+}

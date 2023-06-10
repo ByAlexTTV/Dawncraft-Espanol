@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Flechas con Poción"
+    },
+    "description": {
+      "text": "Estoy intentando hacer flechas con poción. ¿Puedes conseguirme una docena de polvos de piedra luminosa?"
+    }
+  }
+}

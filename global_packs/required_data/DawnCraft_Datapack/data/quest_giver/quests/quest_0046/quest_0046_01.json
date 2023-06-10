@@ -1,0 +1,41 @@
+{
+  "parent": "quest_giver:quest_0046_01b",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Hola"
+    },
+    "description": {
+      "text": "Parece que aún no has terminado tu contrato. ¿O acaso olvidaste cuál era tu contrato? Derrota a $(red)2 bestias plateadas$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aquí."
+    },
+    "description": {
+      "text": "Lo hiciste bien. Puedo sentir que las fuerzas malignas detienen brevemente su avance. Pero su conquista es interminable. Habla conmigo nuevamente si deseas otro contrato."
+    }
+  },
+  "tasks": [ 
+    {
+      "entity": "bloodandmadness:silverbeast",
+      "id": "quest_giver:kill",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

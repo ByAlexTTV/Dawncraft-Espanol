@@ -1,0 +1,13 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 16,
+	"icon": "minecraft:iron_pickaxe",
+	"start": {
+		"title": {
+			"text": "Sculk"
+		},
+		"description": {
+			"text": "Mientras estaba minando, encontré algo extraño bajo las pizarras profundas. Esporas infestadas y sonidos agudos y estridentes rodeaban el área. Escuché de otros mineros que estas infestaciones se llaman $(red)sculks$() y que tuve suerte de salir con vida... Sin embargo, estoy fascinado por los sonidos agudos y las infestaciones. ¿Sería posible que me consiguieras uno de esos $(red)sculk shriekers$() de las Profundidades Oscuras?"
+		}
+	}
+}

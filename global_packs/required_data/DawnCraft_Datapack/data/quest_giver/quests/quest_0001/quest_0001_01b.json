@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "¡Tráeme algo!"
+    },
+    "description": {
+      "text": "¡Necesito algo! ¿Puedes ayudarme a buscar $(red)4 lingotes de hierro$()? Me estoy quedando sin materiales para hacer una armadura... ¡Te lo pagaré algún día, lo prometo!"
+    }
+  }
+}

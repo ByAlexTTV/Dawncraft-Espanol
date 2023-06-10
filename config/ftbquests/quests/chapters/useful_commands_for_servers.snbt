@@ -1,0 +1,258 @@
+{
+	id: "456CFF8FE8F8BFAB"
+	group: ""
+	order_index: 11
+	filename: "useful_commands_for_servers"
+	title: "Información útil"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -2.5d
+			y: -8.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbteams:textures/accept.png"
+			hover: ["In-game Info"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbteams:textures/accept.png"
+			hover: ["Multiplayer Info"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.5d
+			y: -8.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "orcz:textures/aaquestionmark.png"
+			hover: ["Misc."]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.5d
+			y: -7.0d
+			subtitle: "¿Cómo desactivar el fuego amigo en los servidores?"
+			description: [
+				"1) /team add [team] \\n2) /team modify [team] friendlyfire false"
+				"3) /team join [team] [player]"
+			]
+			id: "59F404BFA55005EA"
+			tasks: [{
+				id: "01CE05960FF752C1"
+				type: "checkmark"
+				title: "Desactivar fuego amigo"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			subtitle: "Una lista de combinaciones de teclas que deberías conocer."
+			description: [
+				"   Pulsa \"i\" obtener información sobre su última muerte"
+				"    Pulsa \"r\" activar/desactivar el modo combate"
+				"     Pulsa \"b\" para abrir tu mochila \\n                 (si esta equipada)"
+				"      Pulsa \"n\" para abrir tu quiver\\n                 (si esta equipada)"
+				"          Pulsa \"k\" para comprobar y\\n            seleccionar las habilidades activadas"
+			]
+			id: "726F1FFCA2697CF6"
+			tasks: [{
+				id: "79E1E37E279C39DE"
+				type: "checkmark"
+				title: "Combinaciones de teclas útiles"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			subtitle: "Una lista de libros informativos que te pueden interesar. ¡Comprueba en la barra de búsqueda del inventario su receta individual de fabricación!"
+			description: [
+				"    Crónicas Sombrías (Apotheosis)"
+				"  Encyclopedia of life (Untamed Wilds)"
+				"      Enciclopedia de animales (Alex's Mobs)"
+				"    The Great Butter Book (Lil' Wings)"
+				"         Book of Shadows (Hexerei)"
+				"       Cuaderno Desgastado (Ars Nouveau)"
+				"Cloud Storage and You (Cloud Storage)"
+				"              Paladin's Furniture"
+				"          Food Book (Spice of Life)"
+			]
+			id: "5540C43EFDAE8E3B"
+			tasks: [{
+				id: "484069119F39A90C"
+				type: "checkmark"
+				icon: "minecraft:book"
+				title: "Libros informativos"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.0d
+			subtitle: "¿Dónde se puede encontrar un Guild Master?"
+			description: [
+				"GuildMaster no es una entidad separada del aldeano. En su lugar, es una profesión, alcanzable por cualquier aldeano (excepto nitwit). \\n"
+				"El bloque de profesión es la campana que se suele encontrar en las casas de gremio o en los puestos. Si encuentras un pueblo con un puesto sin un maestro de gremio, intenta esperar hasta el mediodía para que los aldeanos empiecen a conseguir trabajos. \\n"
+				"También podría tratar de "guiar" a los aldeanos a la campana, con cualquier medio posible dentro de los reinos de Minecraft."
+			]
+			id: "63F0B07D20E74D61"
+			tasks: [{
+				id: "3900DF3E47ADF564"
+				type: "checkmark"
+				icon: "minecraft:writable_book"
+				title: "Guild Master"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.0d
+			subtitle: "¿Por qué los aldeanos no interactúan conmigo?"
+			description: [
+				"La información está disponible en la wiki. Pero un error común es que los jugadores saqueen cofres que no han colocado delante de los aldeanos. Esto no sólo se aplica a los cofres dentro de las aldeas. Si un aldeano te ve cometer un "crimen" en cualquier parte del mundo, tu reputación disminuirá. \\La cantidad máxima de paquetes de monedas que necesitarás para mejorar tu reputación es de 8. Pero es muy poco probable que eso ocurra, a menos que masacres aldeas. La mayoría de las veces 1-2 monedas liadas serán suficientes."
+				"\\nSin embargo, si usted siente que su baja reputación es juzgado mal y le gustaría empezar en 0 rep, activar los tramposos y hacer \\n/setreputation reputation:villager @p 0"
+				"\\nTen en cuenta que TAMBIÉN necesitarás un pergamino de comercio además de tener suficiente reputación para comerciar con un aldeano. El pergamino de comercio se puede obtener completando misiones de aldeano."
+			]
+			id: "1B36858C66C3C77F"
+			tasks: [{
+				id: "3FA502DE4B61335E"
+				type: "checkmark"
+				title: "Reputación #1"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			subtitle: "¿Cómo se detecta la finalización de las misiones principales?"
+			description: [
+				"Además de matar a los saqueadores y al Rey Duende, todas las demás misiones principales se detectan cuando el jugador recoge los ojos de ender."
+				"\\nAsí que si has matado a uno de los jefes ("Poseedores de Ojos") de antemano y has obtenido el ojo. Todo lo que tienes que hacer es dejar caer el ojo que el Eye Holder sostenía, y luego recogerlo de nuevo. Con eso deberias poder completar la quest del guildmaster."
+			]
+			id: "08F5174D848D7DF0"
+			tasks: [{
+				id: "62A75C3AC8B180D6"
+				type: "checkmark"
+				icon: "minecraft:filled_map"
+				title: "¿Misión Acabada?"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			subtitle: "¿Qué shader debo utilizar?"
+			description: [
+				"             Mejor rendimiento:\\n           - Sildurs Vibrant Lite\\n"
+				"      Recomendado por Mejores efectos visuales:\\n        - Complimentary Reimagined"
+				"\\n        Pruebe otros si éstos no \\n           se ajustan a sus preferencias!"
+			]
+			id: "7644BDD80B6EDA44"
+			tasks: [{
+				id: "43CC8096AA6E2C33"
+				type: "checkmark"
+				title: "Recomendación de Shaders"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			subtitle: "¿Cómo protejo mis propiedades en un servidor?"
+			description: [
+				"Echa un vistazo al mod 'Claim Chunks'. Este mod añade un nuevo bloque - Bloque de Reclamo en el juego. \\n\\¡Visita su página de CurseForge para aprender a personalizar los permisos de tus chunk!"
+				"\\n*La cantidad máxima de chunks que un jugador puede reclamar es de 8 por defecto."
+				"\\n*Para ver los chunks presiona F3 + G"
+				"\\n*Desactiva los shaders para ver mejor los chunks."
+			]
+			id: "2294C358D1153CAE"
+			tasks: [{
+				id: "6C26B3CB7B7B5B78"
+				type: "checkmark"
+				icon: "minecraft:oak_door"
+				title: "Proteger tu Casa"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			subtitle: "¿Cómo activar el menú de configuración de gráficos normal?"
+			description: ["         Pulse  \"Shift\" + \"P\" en el\\n               menú de gráficos."]
+			id: "0E4410A648272A97"
+			tasks: [{
+				id: "79729BB3AB3E564D"
+				type: "checkmark"
+				title: "Configuración de gráficos normal"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			subtitle: "¿Por qué no funciona ProjectMMO?"
+			description: [
+				"   El mod se utiliza de forma diferente\\n    en este pack. Olvídese de que existe."
+				"\\n   Aprovechamos la gran capacidad de\\n personalización de PMMO para crear competencias especiales\\n  como Conocimientos y establecer requisitos\\n                    para los objetos."
+			]
+			id: "217D8862894AE01D"
+			tasks: [{
+				id: "4882C70BB6EEE851"
+				type: "checkmark"
+				title: "ProjectMMO"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			subtitle: "¿Cómo se lee un mapa de explorador?"
+			description: [
+				"Fíjate en el puntito que rodea el borde del mapa. Ese eres tú. La parte SUPERIOR del mapa señala el norte; la IZQUIERDA, el oeste; etc..."
+				"\\nA veces hay un error en Minecraft Vanilla donde una cruz no se muestra en el mapa. En casos como este, tendrás que mirar alrededor de la zona en la que se encuentra el mapa."
+			]
+			id: "10180D525A3F3D4F"
+			tasks: [{
+				id: "11DFA820F8B8E6FF"
+				type: "checkmark"
+				title: "Lectura de mapas"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			subtitle: "¿Cómo se habilitan los comandos?"
+			description: ["/gamerule sendCommandFeedback true"]
+			id: "2E679597791BF6B8"
+			tasks: [{
+				id: "68056F1A3F76B35D"
+				type: "checkmark"
+				title: "Habilitar comandos"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			subtitle: "¿Cómo habilitar el respawn de los jefes portadores de ojos para los servidores?"
+			description: [
+				"  /gamerule doDCBossesRespawn true"
+				"\\n     Tenga en cuenta que sólo los jugadores que\\n     han avanzando por la línea de misión \\n  principal puedes volver a invocar al jefe."
+			]
+			id: "1708A5D4E536662D"
+			tasks: [{
+				id: "4708BF5BBA73E19F"
+				type: "checkmark"
+				title: "Habilitar Respawn de los Jefes"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "¡Hey!"
+    },
+    "description": {
+      "text": "Hola aventurero, hay un plato que creo que solo tú puedes hacer para mí. Pagaré generosamente por ello, ¿qué dices?"
+    }
+  }
+}

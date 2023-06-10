@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "¡Oye!"
+    },
+    "description": {
+      "text": "¡Hola! ¿Puedes conseguir $(red)16 flechas$() del flechero local? Te lo pagaré de vuelta."
+    }
+  }
+}

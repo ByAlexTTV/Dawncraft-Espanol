@@ -1,0 +1,61 @@
+{
+  "parent": "quest_giver:quest_0073_01b",
+  "reputation": 8,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Conocimiento en Forestería"
+    },
+    "description": {
+      "text": "Los 3 tipos de hojas que debes recuperar son: $(red)Hojas Crepusculares, Hojas de Arce, Hojas Estrelladas$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "¡Es fascinante! ¿Cómo es posible que haya rasgos comunes en plantas que crecen en entornos completamente diferentes? De todos modos, aquí está tu recompensa."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "blue_skies:dusk_leaves"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "blue_skies:maple_leaves"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "blue_skies:starlit_leaves"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_librarian",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:source_gem"
+      },
+      "id": "quest_giver:item",
+      "times": 20
+    }
+  ]
+}

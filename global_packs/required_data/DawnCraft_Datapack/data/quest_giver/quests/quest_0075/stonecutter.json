@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "Aprende cómo usar el tallador de piedra"
+    },
+    "description": {
+      "text": "Hmm... está bien. Dame 15 Esmeraldas si quieres aprender cómo usar el tallador de piedra."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "¡Aquí tienes!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add woodcutting level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

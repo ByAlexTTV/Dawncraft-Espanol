@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Una oferta"
+    },
+    "description": {
+      "text": "Cuando estaba en la Dimensión del Nether, encontré una estructura peculiar con un monstruoso golem que vive en su interior. Te mostraré dónde está en el mapa si me das 6 esmeraldas."
+    }
+  }
+}

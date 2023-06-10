@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "¿Y entonces?"
+    },
+    "description": {
+      "text": "¿Conseguiste los $(red)5 Bastones de Blaze$()? No te preocupes, sé lo difícil que puede ser."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Bien hecho. Estos materiales son difíciles de conseguir aquí en la aldea. Los usaré con moderación. Gracias."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:blaze_rod"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_cleric",
+      "id": "quest_giver:command"
+    }
+  ]
+}

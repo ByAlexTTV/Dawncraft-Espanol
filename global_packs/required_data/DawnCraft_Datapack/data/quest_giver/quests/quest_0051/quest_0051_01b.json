@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Consejo"
+    },
+    "description": {
+      "text": "¡Como granjero ambicioso, mi objetivo en la vida es convertirme en un experto en el cultivo de diferentes vegetaciones! Sin embargo, solo tengo experiencia con trigo y papas... ¿Me ayudarías a encontrar algunas semillas de calabaza? ¡A partir de ahí, comenzaré mi ambiciosa conquista!"
+    }
+  }
+}

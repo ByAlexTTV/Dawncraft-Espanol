@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0024_01b",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "¡Hola de nuevo!"
+    },
+    "description": {
+      "text": "Ah, casi lo olvido. ¿Puedes conseguirme un trozo de papel? Marcaré la ubicación de su escondite."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aquí."
+    },
+    "description": {
+      "text": "Aquí está. ¡Por favor, date prisa! No sabemos qué planean hacer con el niño."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guard1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

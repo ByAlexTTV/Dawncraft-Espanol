@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "He oído decir que algunos de nuestra especie se han mudado a castillos individuales con Creaciones de Contraptions... Si alguna vez encuentras uno, ¿podrías decirme cómo es el lugar?"
+    }
+  }
+}

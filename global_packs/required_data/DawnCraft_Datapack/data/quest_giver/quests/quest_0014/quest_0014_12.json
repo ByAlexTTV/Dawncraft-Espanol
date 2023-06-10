@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0014_11",
+  "reputation": 10,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "¿El Fin... es solo el Comienzo?"
+    },
+    "description": {
+      "text": "Si debes saberlo... El deidad que corrompió al dragón de Ender... Todavía está muy vivo. Pero ese ser es simplemente demasiado poderoso, incluso para ti. El mapa para llegar a él lo tiene el guardián de Ender. En cuanto al paradero del guardián de Ender... Nuestros enderianos pueden tener una pista. No te aconsejo que persigas esto. Has hecho más que suficiente."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "El Verdadero Final"
+    },
+    "description": {
+      "text": "... Lamento haber dudado de ti. Eres, verdaderamente, único.                                      - Fin del Diálogo -"
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "simple_mobs:killelementaldeity"
+    }
+  ],
+  "rewards": [
+  ]
+}

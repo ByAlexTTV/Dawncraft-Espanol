@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Consejo"
+    },
+    "description": {
+      "text": "Mis preciados cultivos no han estado creciendo bien estos días... ¿Crees que puedes ayudarme a conseguir $(red)8 huesos$() para obtener algunos fertilizantes?"
+    }
+  }
+}

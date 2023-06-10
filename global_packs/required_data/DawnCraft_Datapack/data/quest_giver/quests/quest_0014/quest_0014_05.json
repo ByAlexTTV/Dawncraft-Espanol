@@ -1,0 +1,52 @@
+{
+  "parent": "quest_giver:quest_0014_04",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Camino hacia los Poseedores de los Ojos"
+    },
+    "description": {
+      "text": "Tenemos muy poca información sobre el Caballero Rober en su estado actual, pero debería estar bastante debilitado desde la última guerra... Oh, recuerda traer perlas de ender. Tiene un ataque desagradable que solo se puede evitar teletransportándose."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Camino hacia los Poseedores de los Ojos"
+    },
+    "description": {
+      "text": "Wow, derrotaste al Caballero Rober, ¿eh? ¿Fue duro? En su época, era uno de los oponentes más temibles a los que podías enfrentarte en un duelo. Supongo que finalmente la edad le alcanzó. Bueno, el siguiente poseedor del ojo es otro humano. Actualmente vive pacíficamente en su granja... Aquí tienes el mapa de su ubicación."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:rogue_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add crafting level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add engineering level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:knight_rober_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster5 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

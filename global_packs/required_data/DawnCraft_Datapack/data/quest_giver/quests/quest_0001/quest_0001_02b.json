@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0001_01",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "Ahora que lo pienso..."
+    },
+    "description": {
+      "text": "Ahora que lo pienso... Hay una forma de que te lo pague. ¿Puedes traerme una hoja de papel para que pueda dibujarte un mapa?"
+    }
+  }
+}

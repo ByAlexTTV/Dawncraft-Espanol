@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "¡Una tarea imposible!"
+    },
+    "description": {
+      "text": "¿Sabías que hay estas criaturas gigantes llamadas elefantes que viven en los biomas de sabana? Bueno, algunos de nuestra especie han logrado domesticarlos. ¿Crees que puedes hacerlo? ¿Domesticar un elefante?"
+    }
+  }
+}

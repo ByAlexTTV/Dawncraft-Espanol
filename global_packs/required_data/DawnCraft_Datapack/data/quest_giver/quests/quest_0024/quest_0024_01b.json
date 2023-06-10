@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 6,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "ayuda"
+    },
+    "description": {
+      "text": "Los saqueadores han secuestrado a un niño de nuestro pueblo... Por favor, ve a rescatarlo y tráelo de vuelta a casa. Los guardias aquí están ocupados con sus patrullas, tú eres nuestra única esperanza."
+    }
+  }
+}

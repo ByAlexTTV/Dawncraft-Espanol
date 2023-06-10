@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Una Oferta"
+    },
+    "description": {
+      "text": "¿Has oído hablar de un ser legendario llamado Ignis? He escuchado que es incluso más fuerte que... el Gigante de Fuego. Si quieres invocarlo, necesitarás obtener ciertos materiales en la Dimensión Nether. Puedo mostrarte dónde encontrar estos materiales... por un precio. Exactamente 4 esmeraldas."
+    }
+  }
+}

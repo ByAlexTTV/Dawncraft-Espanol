@@ -1,0 +1,37 @@
+{
+  "parent": "quest_giver:quest_0028_01b",
+  "reputation": 0,
+  "icon": "minecraft:oak_sapling",
+  "start": {
+    "title": {
+      "text": "Montaña de Niebla"
+    },
+    "description": {
+      "text": "Oye, ¿has encontrado ya la bioma mística $(red)Montaña de Niebla$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¿En serio?"
+    },
+    "description": {
+      "text": "¿En serio...? Eso es bastante decepcionante, para ser honesto. Pensé que habría dragones viviendo en las Montañas de Niebla... Bueno, al menos ahora sé que es un mito. Gracias."
+    }
+  },
+  "tasks": [
+    {
+      "id": "afptweaks:advancement",
+      "advancement": "custom:magical_spring"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    }
+  ]
+}

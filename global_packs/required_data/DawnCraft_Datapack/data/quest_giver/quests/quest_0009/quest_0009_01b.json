@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Petición de Recolección"
+    },
+    "description": {
+      "text": "¿Podrías ayudarme a conseguir 4 tintas de calamar?"
+    }
+  }
+}

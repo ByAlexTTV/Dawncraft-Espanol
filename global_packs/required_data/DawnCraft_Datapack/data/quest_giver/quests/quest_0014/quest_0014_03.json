@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0014_02",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Camino hacia los Poseedores de los Ojos"
+    },
+    "description": {
+      "text": "¿Viste el mapa que te di? Tu primera tarea es exterminar al $(red)Rey Goblin$(). Pueden encontrarse en la cima de sus castillos."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Camino hacia los Poseedores de los Ojos"
+    },
+    "description": {
+      "text": "Buen trabajo. Parece que estás listo para enfrentarte al $(red)Ogro Corrupto$(). Aquí está, la criatura que habita en el lugar marcado tiene uno de los ojos."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "goblinsanddungeons:goblin_crown"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster1",
+      "id": "quest_giver:command"
+    },
+     {
+      "command": "/advancement grant @p only simple_mobs:goblin_king_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster3 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

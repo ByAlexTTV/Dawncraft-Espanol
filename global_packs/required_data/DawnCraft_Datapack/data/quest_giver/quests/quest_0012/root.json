@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¡Hola! ¿Podrías traerme un cubo de leche? Estoy deseando probarlo."
+    }
+  }
+}

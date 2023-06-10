@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0064_01b",
+  "reputation": 18,
+  "icon": "supplementaries:slingshot",
+  "start": {
+    "title": {
+      "text": "Fabricación de Resorteras"
+    },
+    "description": {
+      "text": "¿Aún no has podido fabricar la $(red)resortera$()? Bueno, lo entiendo... Una buena resortera es extrañamente difícil de hacer."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "¡Sí, esto es exactamente lo que había imaginado! Hm... No parece tan impresionante. Parece que usa piedras como munición... Bueno, aquí lo tienes, realmente no lo necesito. ¡Gracias por mostrármelo!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

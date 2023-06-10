@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0035_02b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Incendium"
+    },
+    "description": {
+      "text": "Recuerda, las Tierras de Ceniza en el Nether. Vuelve a mí después de visitar ese lugar."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Completado"
+    },
+    "description": {
+      "text": "Es fascinante... Gracias por contarme sobre ese lugar. Aquí tienes tu recompensa. Bueno, ahora sigue adelante... Tengo una decisión importante que tomar."
+    }
+  },
+  "tasks": [
+    {
+      "id": "afptweaks:advancement",
+      "advancement": "custom:scarlet_rot"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

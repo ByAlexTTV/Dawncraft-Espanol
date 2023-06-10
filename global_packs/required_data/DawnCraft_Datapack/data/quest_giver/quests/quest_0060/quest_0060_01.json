@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0060_01b",
+  "reputation": 0,
+  "icon": "minecraft:oak_boat",
+  "start": {
+    "title": {
+      "text": "Construcción de Barcos"
+    },
+    "description": {
+      "text": "Recuerda, el barco debe estar hecho con el material $(red)Balsa Contaminada$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Es aceptable, podría necesitar un poco más de trabajo. Pero esto servirá, gracias. Aquí está tu recompensa, creo que te gustará."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "biomemakeover:blighted_balsa_boat"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_fisherman",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

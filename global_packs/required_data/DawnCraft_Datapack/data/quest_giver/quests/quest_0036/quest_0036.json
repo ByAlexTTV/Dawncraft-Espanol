@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Una Charla Amistosa"
+    },
+    "description": {
+      "text": "¿Sabías que puedes usar la tabla de cortar con un cuchillo para cortar la mayoría de los ingredientes alimenticios en ingredientes más pequeños? ¡Vale la pena experimentar no solo con alimentos, sino también con otros recursos como troncos o equipos!"
+    }
+  }
+}

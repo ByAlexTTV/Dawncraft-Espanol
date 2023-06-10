@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0019_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "¿Y bien?"
+    },
+    "description": {
+      "text": "¿Podrías traerme un trozo de papel? Te dibujaré un mapa."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Aquí lo tienes. Por favor, dale esto y dile que le mando mis saludos. No estaría aquí sin él."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:miner1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p miner1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

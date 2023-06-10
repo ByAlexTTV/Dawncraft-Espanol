@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "¡Oye!"
+    },
+    "description": {
+      "text": "Escuché que hay un tipo de ave terrestre en los biomas del desierto con excelentes plumas para hacer flechas. ¿Crees que puedes cazar 2 de ellas y traerme sus caídas?"
+    }
+  }
+}

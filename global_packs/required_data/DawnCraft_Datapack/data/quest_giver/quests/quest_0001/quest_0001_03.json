@@ -1,0 +1,49 @@
+{
+  "parent": "quest_giver:quest_0001_02",
+  "reputation": 5,
+  "icon": "minecraft:blast_furnace",
+  "start": {
+    "title": {
+      "text": "Hola."
+    },
+    "description": {
+      "text": "Hola. ¿Encontraste el colgante? Por lo general, esconden objetos de valor debajo de las mesas."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Finalmente..."
+    },
+    "description": {
+      "text": "Finalmente, Juan... lo recuperé... No rompí mi promesa... Oh, aquí lo tienes. Gracias por esto, significa mucho para mí."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:armorers_pendant"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "type": "minecraft:item_nbt",
+        "item": "minecraft:iron_chestplate",
+        "nbt": "{display:{Name:'[{\"text\":\"Guardián del juramento\",\"italic\":false}]',Lore:['[{\"text\":\"Una coraza que el armero hizo especialmente para su campeón.\",\"italic\":false}]']},Enchantments:[{id:mending,lvl:1},{id:protection,lvl:2}]}"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

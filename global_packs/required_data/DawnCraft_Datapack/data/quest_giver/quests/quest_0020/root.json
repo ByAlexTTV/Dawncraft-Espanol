@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:dirt",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¡Hola! ¿Eres un aventurero, verdad? ¿Tienes un minuto?"
+    }
+  }
+}

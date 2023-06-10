@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Afilado de cuchillos"
+    },
+    "description": {
+      "text": "Estoy buscando buenas piedras de afilar para mi cuchillo. He oído hablar bien de un material bajo tierra llamado pizarra profunda que es perfecto para afilar. ¿Puedes conseguirme $(red)3 de esas piedras de pizarra profunda$()?"
+    }
+  }
+}

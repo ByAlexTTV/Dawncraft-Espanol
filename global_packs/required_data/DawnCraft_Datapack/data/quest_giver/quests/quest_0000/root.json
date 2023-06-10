@@ -1,0 +1,12 @@
+{
+  "reputation": 25,
+  "icon": "minecraft:diamond",
+  "start": {
+    "title": {
+      "text": "No importa."
+    },
+    "description": {
+      "text": "El aldeano decidió en el último segundo no hablar contigo."
+    }
+  }
+}

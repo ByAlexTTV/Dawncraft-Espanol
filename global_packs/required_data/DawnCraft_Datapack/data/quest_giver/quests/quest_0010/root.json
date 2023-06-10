@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¿Quieres aprender a usar el cortapiedras? ¡Solo cuesta 10 esmeraldas!"
+    }
+  }
+}

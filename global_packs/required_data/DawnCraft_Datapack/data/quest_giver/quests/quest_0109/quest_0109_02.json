@@ -1,0 +1,37 @@
+{
+  "parent": "quest_giver:quest_0109_01",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Niño perdido"
+    },
+    "description": {
+      "text": "Salva al niño, por favor. Tráelo de vuelta a casa."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Niño perdido: Completado"
+    },
+    "description": {
+      "text": "¡Increíble! ¡Realmente lo lograste! Para ser honesto, no estaba optimista sobre la supervivencia del niño... Aquí, te enseñaré una nueva habilidad: Maestro de la Espada. Es la única forma en que puedo recompensarte."
+    }
+  },
+  "tasks": [
+    {
+      "id": "afptweaks:follow_quest",
+      "structure": "#minecraft:village"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:swordmaster\"}",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

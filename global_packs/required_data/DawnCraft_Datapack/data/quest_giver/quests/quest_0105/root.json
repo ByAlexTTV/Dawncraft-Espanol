@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "¡Hey!"
+    },
+    "description": {
+      "text": "¡Hey chico! ¿Puedes conseguirme un trozo de $(red)tronco Frostbright$()? Se puede encontrar en la dimensión Everbright."
+    }
+  }
+}

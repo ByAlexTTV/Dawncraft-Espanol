@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:grindstone",
+  "start": {
+    "title": {
+      "text": "Desbloquear Piedra de afilar"
+    },
+    "description": {
+      "text": "Esa es una solicitud bastante inusual... Te cobraré 15 esmeraldas por eso. ¿Está bien?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "¡Aquí tienes! ¿Fácil, verdad?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add excavation level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "Hola, buen señor. ¿Cómo te gustaría aprender a usar la mesa de cartografía? ¡Solo cuesta 10 esmeraldas!"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "Amigo mío, este lugar me aburre hasta la muerte... ¿Te apetece una pequeña charla? Valdrá la pena para ti."
+    }
+  }
+}

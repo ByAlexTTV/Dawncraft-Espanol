@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Una Oferta"
+    },
+    "description": {
+      "text": "25 Esmeraldas, y te enseñaré cómo empuñar dos espadas largas al mismo tiempo."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias"
+    },
+    "description": {
+      "text": "Ha sido un placer hacer negocios contigo. Ten cuidado de no romperte la espalda."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 25
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:"epicfight:dualgreatsword"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

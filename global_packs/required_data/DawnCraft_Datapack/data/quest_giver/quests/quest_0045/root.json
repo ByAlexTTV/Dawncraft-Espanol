@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "¡Oye!"
+    },
+    "description": {
+      "text": "¡Hola! ¿Podrías ayudarme a conseguir $(red)5 varas de Blaze$()? Son obtenidas en la dimensión del Nether."
+    }
+  }
+}

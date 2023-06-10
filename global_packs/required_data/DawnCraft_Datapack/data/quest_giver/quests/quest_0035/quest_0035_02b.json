@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0035_01",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Incendium"
+    },
+    "description": {
+      "text": "¡Ah, ¿ya has vuelto? Bueno, ¿has estado en el Nether? Hay un bioma llamado Tierras de Ceniza en el Nether. Intenta encontrar un castillo allí, aunque no puedas, regresa a mí. Quiero saber cómo es ese lugar, por favor."
+    }
+  }
+}

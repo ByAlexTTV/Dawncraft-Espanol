@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "¡Una tarea imposible!"
+    },
+    "description": {
+      "text": "¡Por fin alguien con quien hablar! Déjame contarte algo: Hay un gigantesco Palacio Flotante sin Raíces en algún lugar de este reino. Pocas personas conocen su existencia, y mucho menos su paradero... y afortunadamente para ti, yo soy una de esas pocas. Te diré algo. Si alguna vez tienes la oportunidad de recibir la bendición de una Orca, avísame exactamente cómo sucedió y cómo te hizo sentir. Haz eso, ¡y te diré dónde se encuentra el palacio, de forma gratuita! Un poderoso hechicero reside en ese palacio y ha ocultado su tesoro en lo más profundo del núcleo. Como aventurero, ¡esto debe parecerte muy tentador, ¿verdad?!"
+    }
+  }
+}

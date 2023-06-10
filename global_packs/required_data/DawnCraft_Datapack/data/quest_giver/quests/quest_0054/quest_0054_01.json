@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0054_01b",
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "¿Conseguiste la $(red)azada de hierro$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Oh, lo conseguiste para nosotros... Estoy muy agradecido por eso. Me siento mal por pedir otro favor... Pero ¿crees que puedes hacer $(red)2 panes$() para nosotros? Solo somos buenos en cultivar y cosechar, ¿ves? ¡Puedes usar el trigo de nuestra granja para eso!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_hoe"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

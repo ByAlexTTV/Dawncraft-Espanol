@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0035_02b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Espada"
+    },
+    "description": {
+      "text": "¿Somos curiosos, eh? Bueno, la verdad es... Mi hermano era un comerciante ambulante, uno bastante peculiar. Le gustaba recorrer la dimensión del Nether... Aunque sabía lo peligroso que era. Un día se fue y... nunca volvió. Nos dejó una nota diciendo que iba a un castillo en las Tierras de Ceniza. Iba a ir allí yo mismo para averiguar si realmente estaba muerto o no, pero temo que tampoco regresaría. Después de todo, han pasado meses desde su última partida, solo quiero tener un cierre adecuado... Él tenía un artefacto llamado $(light_blue)'Espada Heladora'$(). ¿Crees que puedes ir a ese castillo y ver si puedes encontrar esta arma?"
+    }
+  }
+}

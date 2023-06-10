@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0116_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Una Oferta"
+    },
+    "description": {
+      "text": "¡4 esmeraldas, y te mostraré dónde puedes encontrar los materiales necesarios para invocar a Ignis!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Aquí tienes. No invoques esa abominación cerca de este pueblo. Y recuerda, este mapa solo funcionará si lo abres en el Nether. Abrir este mapa aquí solo mostrará un mapa en blanco. No me preguntes por qué... no tengo ni idea."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 4
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_2"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p netherian3 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

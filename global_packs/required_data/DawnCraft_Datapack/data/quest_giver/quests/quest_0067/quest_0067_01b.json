@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "ayuda"
+    },
+    "description": {
+      "text": "Necesito que recojas $(red)2 piezas de piel de oso blanco$(). Podrían ser un poco más difíciles que otros tipos de osos, así que ten cuidado. Vuelve cuando tengas los bienes."
+    }
+  }
+}

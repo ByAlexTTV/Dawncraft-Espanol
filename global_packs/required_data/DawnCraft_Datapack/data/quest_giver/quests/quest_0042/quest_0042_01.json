@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 2,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "¡Crea una Brújula!"
+    },
+    "description": {
+      "text": "No es una tarea tan difícil, ¿verdad? Crea una brújula."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Buen trabajo. Ahora sigue adelante, ¿esperabas una recompensa?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:compass"
+      },
+      "id": "quest_giver:craft",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_cartographer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

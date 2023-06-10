@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0002_01b",
+  "reputation": 0,
+  "icon": "minecraft:rabbit_foot",
+  "start": {
+    "title": {
+      "text": "A Favor"
+    },
+    "description": {
+      "text": "Bueno, ¿tienes la pata de conejo?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Genial!"
+    },
+    "description": {
+      "text": "¡Genial! No tengo mucho para pagarlo... ¡Por favor, acepta este cordero asado, recién cocinado!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:rabbit_foot"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+      	"item": "minecraft:cooked_mutton"
+	},
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

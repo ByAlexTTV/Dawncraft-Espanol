@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Corazón de Dragón"
+    },
+    "description": {
+      "text": "El mapa hacia el pódium de invocación te costará 5 esmeraldas."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Fue un placer hacer negocios contigo, amigo."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:cartographer2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p cartographer2 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

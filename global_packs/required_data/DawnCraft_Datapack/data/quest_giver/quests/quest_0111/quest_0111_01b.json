@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "¡Ayuda!"
+    },
+    "description": {
+      "text": "Hay un $(red)Gigante$() que se come a la gente cerca de nosotros. Algunos de nuestros aldeanos y guardias ya han sido asesinados por él. Los guardias, incluyéndome a mí, estamos demasiado intimidados por su gran tamaño. Pero según sabemos, no es muy fuerte ni inteligente. Creo que podrás enfrentarte a él."
+    }
+  }
+}

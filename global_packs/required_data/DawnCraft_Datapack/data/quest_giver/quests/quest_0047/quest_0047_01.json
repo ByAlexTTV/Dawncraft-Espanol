@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "¿Entonces?"
+    },
+    "description": {
+      "text": "¿Conseguiste las $(red)lágrimas de Ghast$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Excelente, exactamente lo que necesitaba. ¡Gracias por tu ayuda!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:ghast_tear"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_cleric",
+      "id": "quest_giver:command"
+    }
+  ]
+}

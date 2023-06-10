@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "¡Oye!"
+    },
+    "description": {
+      "text": "¿Podrías darme $(red)1 Cactus de Bola Naranja$() si encuentras alguno?"
+    }
+  }
+}

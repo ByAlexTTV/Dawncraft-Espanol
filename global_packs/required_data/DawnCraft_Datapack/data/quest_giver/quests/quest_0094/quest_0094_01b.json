@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "¡Ayuda!"
+    },
+    "description": {
+      "text": "Hay un plato llamado End Delight. Es un plato que solo se puede hacer con ingredientes encontrados en la Dimensión End... Por favor, reúne todos los recursos y cocínalo para mí."
+    }
+  }
+}

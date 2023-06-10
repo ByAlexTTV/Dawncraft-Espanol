@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:iron_chestplate",
+  "start": {
+    "title": {
+      "text": "¡Estofado de Champiñones!"
+    },
+    "description": {
+      "text": "¡Gracias! Solo quiero probar un buen plato de $(red)estofado de champiñones$()."
+    }
+  }
+}

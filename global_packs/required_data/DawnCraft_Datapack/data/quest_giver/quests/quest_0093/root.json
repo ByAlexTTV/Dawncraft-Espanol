@@ -1,0 +1,12 @@
+{
+  "reputation": 50,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "¡Hey!"
+    },
+    "description": {
+      "text": "¡Hola aventurero! ¿Te gustaría tener una charla?"
+    }
+  }
+}

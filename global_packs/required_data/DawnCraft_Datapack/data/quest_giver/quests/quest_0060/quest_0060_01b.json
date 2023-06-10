@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Construcción de Barcos"
+    },
+    "description": {
+      "text": "Genial. ¿Podrías ayudarme a hacer un barco para pescar? Normalmente, la caoba es el mejor tipo de madera, pero en esta dimensión tenemos lo siguiente mejor: $(red)Balsa Contaminada$(). Haz un barco con eso y dámelo... Confío en que como aventurero tienes mucha experiencia haciendo uno, ¿verdad?"
+    }
+  }
+}

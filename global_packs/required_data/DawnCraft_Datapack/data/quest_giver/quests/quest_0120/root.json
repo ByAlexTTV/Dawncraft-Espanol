@@ -1,0 +1,12 @@
+{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "Conozco un lugar al que los aventureros van para invocar seres poderosos. ¿Te gustaría saber dónde?"
+    }
+  }
+}

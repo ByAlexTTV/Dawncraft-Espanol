@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0014_06",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Camino hacia los Poseedores de los Ojos"
+    },
+    "description": {
+      "text": "El siguiente poseedor del ojo es un no muerto. Un no muerto con muchos trucos bajo la manga, para ser precisos... Está rodeado por sus seguidores, por lo que podrías tener problemas para llegar hasta él."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Camino hacia los Poseedores de los Ojos"
+    },
+    "description": {
+      "text": "El Rey Esqueleto es probablemente el no muerto más poderoso que he visto. Me sorprende que hayas logrado derrotarlo. Bien, veamos... El próximo ojo está custodiado por un renombrado Caballero Sagrado. No estoy seguro si incluso tú puedes lograrlo. De todas formas, te daré su ubicación. Procede con precaución."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:magical_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster5",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:skeleton_lord_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster7 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

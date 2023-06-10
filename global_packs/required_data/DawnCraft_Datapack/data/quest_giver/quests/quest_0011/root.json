@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¿Quieres aprender a usar el telar? Puedo enseñarte por 10 esmeraldas."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0118_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Corazón de Dragón"
+    },
+    "description": {
+      "text": "No preguntes por qué. No es asunto tuyo, chico. Solo consígueme el $(red)Corazón de Dragón de Fuego$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Sabía que podía contar contigo. Aquí tienes."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:firedragon_heart"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_miner",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

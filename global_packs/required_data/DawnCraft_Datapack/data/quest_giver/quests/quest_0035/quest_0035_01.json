@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0035_01b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Afilar cuchillos"
+    },
+    "description": {
+      "text": "¿Ya tienes las $(red)5 piedras de pizarra profunda$()? Mi hoja se está desgastando."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Terminado"
+    },
+    "description": {
+      "text": "¡Buen trabajo! Como se esperaba, estas rocas tienen niveles de grano grueso y fino. ¡Muchas gracias! Toma, esta es tu recompensa."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:deepslate"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

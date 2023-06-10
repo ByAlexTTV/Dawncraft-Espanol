@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Una Charla Amistosa"
+    },
+    "description": {
+      "text": "¿Sabías que puedes automatizar ciertos procesos como la agricultura o la minería usando pixies de ars nouveau? También puedes hacerlo con contraptions de create... Pero es posible que necesites hablar con un ingeniero para aprender cómo usarlo."
+    }
+  }
+}

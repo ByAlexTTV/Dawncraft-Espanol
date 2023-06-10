@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 14,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Una solicitud curiosa"
+    },
+    "description": {
+      "text": "Genial. Básicamente, un oceanógrafo me contó que hay estas criaturas en el mar llamadas guardianes con espinas saliendo de ellos... Me resulta difícil creerlo, ya que nunca he encontrado algo así en toda mi vida cerca de la costa. Si alguna vez te encuentras con uno y decides matarlo, ¿podrías darme una de sus $(red)espinas$() como prueba de su existencia? El oceanógrafo me dijo que solo el grande suelta su espina al morir."
+    }
+  }
+}

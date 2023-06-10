@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "¡Ayuda!"
+    },
+    "description": {
+      "text": "¡Genial! ¿Sabías que al ser derrotado, el Dragón del Fin dejará caer su huevo? Me preguntaba si sería posible que me permitieras echar un vistazo al $(red)huevo de dragón$(), eso alegraría mi día."
+    }
+  }
+}

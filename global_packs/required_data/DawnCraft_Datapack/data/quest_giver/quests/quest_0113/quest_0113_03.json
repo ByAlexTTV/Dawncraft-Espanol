@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0113_02",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "¡Hola de nuevo!"
+    },
+    "description": {
+      "text": "¡Sigo trabajando en ello! ¿Ya tienes el palo?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aquí está."
+    },
+    "description": {
+      "text": "Aquí lo tienes. Este podría ser mi mejor trabajo hasta ahora, jeje."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+         "item": "minecraft:stick"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:gem_sword"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    }
+  ]
+}

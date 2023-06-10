@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0014_08",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "El Fin del Camino"
+    },
+    "description": {
+      "text": "El gigante de fuego había desaparecido de nuestro reino hace muchas lunas. Pudimos extraer un mechón de su cabello antes de que se fuera. Los grandes clérigos encantaron magia en el objeto, lo que te debería permitir teóricamente invocar al gigante si ofreces el objeto en el altar. Si alguna vez pierdes el mechón de cabello, combina una carga de fuego con una poción básica de resistencia al fuego en un soporte de alquimia para volver a invocar el objeto."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "El Fin del Camino"
+    },
+    "description": {
+      "text": "Bueno, estoy sin palabras... Esto es todo, aventurero. Has derrotado a todos los poseedores de los ojos. Si ya has adquirido 12 ojos, busca la puerta de entrada al End. Que los dioses te acompañen."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:corrupted_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:village @p 10",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "simple_mobs:giant_knot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

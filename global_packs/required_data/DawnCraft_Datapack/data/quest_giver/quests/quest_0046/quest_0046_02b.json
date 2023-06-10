@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0046_01",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Exterminar"
+    },
+    "description": {
+      "text": "Hola de nuevo, mi siguiente contrato para ti es exterminar a los orcos que deambulan por nuestras tierras. Estos monstruos humanoides han establecido campamentos en todas partes. Estoy seguro de que has visto algunos. Recupera al menos 6 dientes de orco y tráemelos como prueba."
+    }
+  }
+}

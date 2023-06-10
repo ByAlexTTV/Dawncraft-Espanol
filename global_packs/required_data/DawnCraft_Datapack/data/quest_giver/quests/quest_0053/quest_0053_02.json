@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0053_01",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "¿Conseguiste las $(red)2 semillas de melón$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "¿Podrías conseguirme también 4 bayas dulces? Los aldeanos como yo no pueden arriesgarse a ir al bosque a recolectarlas. *Escuchas cómo el aldeano se ríe mientras termina la oración.*"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:melon_seeds"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ]
+}

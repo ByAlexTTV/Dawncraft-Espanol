@@ -1,0 +1,12 @@
+{
+  "reputation": 20,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¡Hola, chico! ¿Listo para un pequeño desafío?"
+    }
+  }
+}

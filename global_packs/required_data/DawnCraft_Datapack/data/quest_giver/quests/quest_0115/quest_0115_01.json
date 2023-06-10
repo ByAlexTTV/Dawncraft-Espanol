@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0115_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Una oferta"
+    },
+    "description": {
+      "text": "6 esmeraldas si quieres que te muestre dónde está el Monstruo en la Dimensión del Nether."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "¡Aquí tienes, feliz caza! Recuerda, este mapa solo funcionará si lo abres en el Nether. Abrir este mapa aquí solo te dará un mapa en blanco. Seguro que es confuso, ¿verdad?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 6
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_1"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p netherian2 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

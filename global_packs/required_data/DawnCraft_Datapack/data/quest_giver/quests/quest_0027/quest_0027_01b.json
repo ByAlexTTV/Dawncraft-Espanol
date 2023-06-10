@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 20,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "Caza de espíritus"
+    },
+    "description": {
+      "text": "Los espíritus se manifiestan en la dimensión de muchas formas. ¡A veces poseen objetos, espadas e incluso armaduras! Intenta cazar $(red)5 armaduras poseídas... o huecas$(), como quieras llamarlas, y te daré una recompensa por tu valentía. ¿Qué te parece?"
+    }
+  }
+}

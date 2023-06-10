@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0021_01b",
+  "reputation": 14,
+  "icon": "minecraft:heart_of_the_sea",
+  "start": {
+    "title": {
+      "text": "¿Y bien?"
+    },
+    "description": {
+      "text": "¿Ya has obtenido un $(red)Corazón del Mar$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Esto se ve... extraño. Pero la mayoría de las cosas que provienen del océano tienen esta naturaleza... De todos modos, muchas gracias, aventurero. Aquí tienes tu recompensa."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:heart_of_the_sea"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_oceanographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0040_02b",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "¿Entonces?"
+    },
+    "description": {
+      "text": "Entonces, ¿conseguiste el escudo?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Vaya, ¿qué tenemos aquí? Espero que esa tarea no te haya dejado ninguna cicatriz, ¡jaja! Aquí está tu recompensa, escuché que a tu especie le gustan los diamantes."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:crocodile_scute"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

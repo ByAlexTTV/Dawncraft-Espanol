@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "Es tan difícil llevar la cuenta del tiempo cuando estoy pescando... Oye, amigo, ¿puedes ayudarme con algo?"
+    }
+  }
+}

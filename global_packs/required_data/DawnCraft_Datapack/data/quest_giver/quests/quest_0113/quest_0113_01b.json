@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "¡Ayuda!"
+    },
+    "description": {
+      "text": "He oído de los viajeros errantes que avistaron a un monstruo gigantesco con púas de gemas en su espalda hace un tiempo. Dicen que estaba ubicado en un área cubierta de púas de obsidiana... Estoy bastante curioso por las gemas que posee esta criatura. ¿Podrías traerme un trozo de papel? Te mostraré dónde se encuentra."
+    }
+  }
+}

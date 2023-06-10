@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0053_02",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "Entonces, ¿conseguiste las $(red)4 bayas dulces$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Has sido genial, joven. ¿Podrías hacerme otro favor? Necesito 2 remolachas... Te prometo que es lo último que te pediré."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:sweet_berries"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ]
+}

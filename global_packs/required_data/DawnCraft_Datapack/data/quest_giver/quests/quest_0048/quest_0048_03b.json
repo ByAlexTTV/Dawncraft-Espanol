@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0048_02",
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Guardias"
+    },
+    "description": {
+      "text": "¿Aún quieres algo, 'héroe'? Bueno, ¿quieres aprender a usar el caldero de mezclas? Mata a 3 guardias de aldeanos por mí. Necesito su sacrificio para... Bueno, no es asunto tuyo. Solo mata a 3. Los callados, no elijas a los parlanchines que te dan tareas. Y hazlo en silencio... si puedes. No quiero que se me relacione con el asesinato."
+    }
+  }
+}

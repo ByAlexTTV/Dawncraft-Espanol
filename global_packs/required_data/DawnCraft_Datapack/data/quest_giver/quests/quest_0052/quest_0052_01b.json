@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 1,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Hola"
+    },
+    "description": {
+      "text": "Los sombreros de mis amigos y yo están un poco gastados. Queremos hacer un sombrero nuevo, ¿sabes? ¿Podrías conseguirme una $(red)paca de paja$()?"
+    }
+  }
+}

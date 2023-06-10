@@ -1,0 +1,12 @@
+{
+  "reputation": 13,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¡Hola aventurero! Podría usar tu ayuda con algo."
+    }
+  }
+}

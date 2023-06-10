@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:emerald",
+  "start": {
+    "title": {
+      "text": "¡Ya hecho!"
+    },
+    "description": {
+      "text": "¿Oh? ¿Ya has derrotado al guardián del ojo antes de que te diera el mapa? Huh... Muéstrame exactamente el ojo que el guardián del ojo soltó. De hecho, suéltalo y recógelo de nuevo... No preguntes por qué."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "El Fin del Camino"
+    },
+    "description": {
+      "text": "No tengo más información para darte, amigo mío. Sigue tu destino."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:corrupted_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ]
+}

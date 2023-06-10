@@ -1,0 +1,12 @@
+{
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "¡Hey!"
+    },
+    "description": {
+      "text": "¡Hola aventurero! Cuando derrotes al Dragón del Fin, ¿podrías hacer algo por mí?"
+    }
+  }
+}

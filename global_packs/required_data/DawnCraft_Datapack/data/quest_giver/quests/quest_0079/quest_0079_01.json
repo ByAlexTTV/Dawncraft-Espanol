@@ -1,0 +1,45 @@
+{
+  "parent": "quest_giver:quest_0079_01b",
+  "reputation": 0,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Solicitud de Exterminio"
+    },
+    "description": {
+      "text": "Por favor, completa la tarea de exterminio lo antes posible. Está afectando a mis corderos."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Bien hecho. Aún quedan muchos, pero creo que veo menos ahora. Aquí tienes tu recompensa."
+    }
+  },
+  "tasks": [
+    {
+      "entity": "minecraft:creeper",
+      "id": "quest_giver:kill",
+      "times": 6
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_shepherd",
+      "id": "quest_giver:command"
+    }
+  ]
+}

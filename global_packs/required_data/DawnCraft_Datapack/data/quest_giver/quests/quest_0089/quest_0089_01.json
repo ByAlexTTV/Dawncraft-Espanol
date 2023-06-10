@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:honey_bottle",
+  "start": {
+    "title": {
+      "text": "¿Miel?"
+    },
+    "description": {
+      "text": "¿Obtuviste la $(red)Botella de miel$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "¡Esa es la mejor miel que he probado en mucho tiempo! ¡Gracias!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:honey_bottle"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_weaponsmith",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

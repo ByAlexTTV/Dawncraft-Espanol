@@ -1,0 +1,50 @@
+{
+  "parent": "quest_giver:quest_0033_01b",
+  "reputation": 7,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Carne Exótica"
+    },
+    "description": {
+      "text": "¿Tienes la $(red)carne y piel de canguro$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Mazel Tov!"
+    },
+    "description": {
+      "text": "Ahh... así que esto es lo que sabe el canguro. Un pedazo de carne tierno, de hecho... La piel, por otro lado, no es tan buena como el cuero normal que usamos. Un buen trofeo, sin embargo... Muchas gracias, aventurero. No tengo mucho que darte... Aquí, toma estas rodajas de carne de res. ¡La carcasa llegó hoy, así que está fresca!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:kangaroo_meat"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    },
+    {
+      "item": {
+        "item": "alexsmobs:kangaroo_hide"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:beef"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

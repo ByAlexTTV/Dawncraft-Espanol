@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0051_01b",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "¿Y entonces?"
+    },
+    "description": {
+      "text": "¿Ya tienes las $(red)semillas de calabaza$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "¡Muchas gracias! Ahora puedo cultivar una pequeña granja de calabazas detrás de mi casa y comenzar mis estudios, ¡jaja!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:pumpkin_seeds"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

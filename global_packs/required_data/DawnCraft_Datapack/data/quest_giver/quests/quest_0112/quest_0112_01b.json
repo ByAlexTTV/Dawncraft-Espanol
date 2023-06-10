@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "ayuda"
+    },
+    "description": {
+      "text": "Muchas gracias... Estaba de viaje con mi familia, hasta que nos encontramos con este... lobo. Pero no se comportaba como uno. De hecho, se comportaba más como... un hombre. Corrió hacia nosotros en cuanto nos vio, y... bueno, soy el único que logró salir con vida. Eso fue hace 2 años, pero todavía recuerdo el lugar donde sucedió. Por favor, extermina esta criatura. Venga a mi familia."
+    }
+  }
+}

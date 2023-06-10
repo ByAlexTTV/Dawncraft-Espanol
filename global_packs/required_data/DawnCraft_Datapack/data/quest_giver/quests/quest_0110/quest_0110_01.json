@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0110_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "¡Hola de nuevo!"
+    },
+    "description": {
+      "text": "Valiente hombre. Por favor, dame un trozo de papel para poder mostrarte dónde se encuentra la criatura."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aquí."
+    },
+    "description": {
+      "text": "Aquí, el clérigo es quien nos proporcionó esta información, aunque no estoy seguro de si es completamente precisa. De cualquier manera, encuentra a esta criatura, mátala y trae lo que suelte."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guard3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard3 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

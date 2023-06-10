@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "¡Ey!"
+    },
+    "description": {
+      "text": "¿Podrías conseguirme un $(red)escombro antiguo$()? Nunca he tenido la oportunidad de trabajar con minerales de tanta calidad... ¡Estoy dispuesto a pagar un alto precio por ello!"
+    }
+  }
+}

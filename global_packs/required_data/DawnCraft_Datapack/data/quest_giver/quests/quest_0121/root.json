@@ -1,0 +1,12 @@
+{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "El Guardián del Fin protege un objeto muy importante. ¿Te gustaría saber dónde está?"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "Estoy enseñando a las personas cómo usar la mesa de flechas por tan solo 10 esmeraldas. ¿Qué dices?"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "parent": "quest_giver:quest_0083_01",
+  "reputation": 13,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "¿Y bien?"
+    },
+    "description": {
+      "text": "¿Ya me has conseguido mi hacha de hierro? Por favor, date prisa."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "¡SÍ! Esta es el hacha que hice... Nunca he podido superarla, ¿sabes? De todos modos, aquí tienes tu recompensa. Aprecio tu ayuda."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_axe",
+        "forge:nbt": "{tag:\"toolsmith\"}"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/give @p iron_axe{Enchantments:[{id:efficiency,lvl:2}]}",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_toolsmith",
+      "id": "quest_giver:command"
+    }
+  ]
+}

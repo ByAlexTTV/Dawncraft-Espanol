@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Una Petición Extraña"
+    },
+    "description": {
+      "text": "¿Podría tener 1 de tus $(red)orbes espirituales$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "La estructura de esto es demasiado complicada... ¿Te importaría darme otro de estos?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

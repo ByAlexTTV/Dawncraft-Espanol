@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0112_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "¡Entonces?"
+    },
+    "description": {
+      "text": "¿Podrías traerme un trozo de papel? Te dibujaré un mapa."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Gracias. La criatura habita en esta área. Cuídate."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:miner2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p miner2 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

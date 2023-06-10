@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 6,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "¡Ayuda!"
+    },
+    "description": {
+      "text": "Los saqueadores que han establecido una base cerca de nuestro pueblo se llevaron a un niño... El número de guardias en este pueblo no es suficiente para entrar y salvar al niño. Si puedes ayudar, por favor tráeme una hoja de papel. Te mostraré dónde están."
+    }
+  }
+}

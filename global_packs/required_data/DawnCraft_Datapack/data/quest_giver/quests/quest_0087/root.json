@@ -1,0 +1,12 @@
+{
+  "reputation": 7,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "¡Hey!"
+    },
+    "description": {
+      "text": "¡Hola! Pareces ser un buen cocinero. ¿Podrías cocinar algo para mí?"
+    }
+  }
+}

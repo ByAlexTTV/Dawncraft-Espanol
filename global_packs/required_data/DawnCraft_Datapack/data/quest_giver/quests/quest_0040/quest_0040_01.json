@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0040_01b",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "¡Una tarea imposible!"
+    },
+    "description": {
+      "text": "Vuelve cuando hayas domesticado un elefante... En realidad, si puedes."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Vaya. Realmente lo lograste. Bueno, escuché que estas criaturas gigantes aman las flores de acacia. Aquí tienes, no preguntes por qué las tengo."
+    }
+  },
+  "tasks": [
+    {
+      "id": "afptweaks:advancement",
+      "advancement": "alexsmobs:alexsmobs/tame_elephant"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "alexsmobs:acacia_blossom"
+      },
+      "id": "quest_giver:item",
+      "times": 10
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

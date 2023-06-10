@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 14,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "ayuda"
+    },
+    "description": {
+      "text": "Necesito tu ayuda para recuperar un objeto llamado $(red)Corazón del Mar$(). A menudo se puede encontrar en tesoros enterrados, pero me falta la experiencia y el conocimiento que un aventurero tiene para encontrarlo. ¿Podrías conseguirlo para mí?"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parent": "quest_giver:quest_0014_03",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Camino hacia los Poseedores de los Ojos"
+    },
+    "description": {
+      "text": "El Ogro está en un nivel diferente en comparación con el rey goblin. Procede con cautela."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Camino hacia los Poseedores de los Ojos"
+    },
+    "description": {
+      "text": "Bien hecho. Tal vez ahora puedas enfrentarte a $(red)Caballero Rober$(). Es mucho más débil de lo que solía ser, pero supongo que todavía es muy peligroso, ya que aún puede contener el poder del ojo que posee. Aquí tienes el mapa de su paradero actual."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:lost_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/dc enableInvasions @p",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add endurance level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add cooking level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p AdvancedSmelting true",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:corrupt_ogre_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster4 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

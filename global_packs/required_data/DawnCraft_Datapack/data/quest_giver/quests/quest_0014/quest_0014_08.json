@@ -1,0 +1,55 @@
+{
+  "parent": "quest_giver:quest_0014_07",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Camino hacia los Poseedores de los Ojos"
+    },
+    "description": {
+      "text": "El Caballero Centinela ha protegido el Ojo Guardián durante siglos. Ninguno de los aventureros que conozco ha logrado pasar más allá de él... Escuché que él está sosteniendo la llave que libera al ojo de su estado latente."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Camino hacia los Poseedores de los Ojos"
+    },
+    "description": {
+      "text": "Increíble. Incluso el Caballero Centinela no es rival para ti... Bueno, te estás acercando al final de tu viaje. ¿Cómo te sientes? ... De todas formas, necesitarás invocar al siguiente poseedor del ojo. Toma este mechón de pelo y el mapa de su altar de invocación."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:guardian_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster6",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "simple_mobs:giant_knot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p fire_giant",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:sentinel_knight_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster8 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

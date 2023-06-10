@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0059_01b",
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Seguimiento del tiempo"
+    },
+    "description": {
+      "text": "¿Conseguiste el reloj de arena? Ni siquiera recuerdo cuándo te pedí que lo hicieras. Dios, necesito ese objeto. Por favor, date prisa."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "¡Genial! Aquí tienes... espera, no hay nada dentro. ¿Cómo se usa? Hm... ¿puedes conseguirme un poco de polvo de $(red)redstone$()? Así puedo ponerlo en el reloj de arena."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "supplementaries:hourglass"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "¡Ayuda!"
+    },
+    "description": {
+      "text": "Hay un $(red)Cave Dweller$() que reside en una cueva cerca de nosotros. Esta criatura es extremadamente peligrosa... Nuestros clérigos creen que un día saldrá de las profundidades y nos masacrará a todos... ¿Puedes exterminar a esta criatura y traerme $(red)partes de sus restos$() como prueba?"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 6,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¡Hola chico! ¿Puedes conseguirme un trozo de $(red)Tronco de Archimadera Vexante Púrpura$()?"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0111_01b",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "¡Hola de nuevo!"
+    },
+    "description": {
+      "text": "Tráeme un trozo de papel y te mostraré dónde está en el papel."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aquí."
+    },
+    "description": {
+      "text": "Aquí, es bastante fácil de detectar una vez que te acercas. Buena suerte y tráeme lo que suelte."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guard4",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard4 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

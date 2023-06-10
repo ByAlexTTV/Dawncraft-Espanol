@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 18,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Fabricación de Resortera"
+    },
+    "description": {
+      "text": "¡Así es, una resortera! He estado intentando crear una, pero parece que me falta habilidad artesanal para hacer una réplica utilizable. ¿Puedes intentarlo tú?"
+    }
+  }
+}

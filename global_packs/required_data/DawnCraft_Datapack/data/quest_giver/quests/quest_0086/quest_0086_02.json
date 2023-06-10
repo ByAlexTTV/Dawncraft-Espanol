@@ -1,0 +1,42 @@
+{
+  "parent": "quest_giver:quest_0086_02b",
+  "reputation": 37,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Contrato de Exterminio"
+    },
+    "description": {
+      "text": "Por favor, vuelve cuando hayas completado el contrato de exterminio - $(red)Mata a 5 Saqueadores$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Gra- ... Parece que ha llegado el momento. Los saqueadores están aquí. Camarada, he forjado esta gran espada para momentos como este. Por favor, úsala de manera adecuada y ayúdanos. Todas nuestras vidas dependen de ti ahora."
+    }
+  },
+  "tasks": [
+    {
+      "entity": "minecraft:pillager",
+      "id": "quest_giver:kill",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/effect give @p minecraft:bad_omen 10 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/give @p epicfight:iron_greatsword{Enchantments:[{id:\"apotheosis:bane_of_illagers\",lvl:3}]}",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

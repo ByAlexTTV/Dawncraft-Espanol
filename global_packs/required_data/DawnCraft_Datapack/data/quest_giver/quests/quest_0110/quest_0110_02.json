@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0110_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "¿Y bien?"
+    },
+    "description": {
+      "text": "¿Ya has exterminado al cave dweller? Si es así, tráeme sus drops como prueba."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Es extraño imaginar a una criatura con una armadura natural tan resistente... Bueno, me alegra que esté muerto. Aquí, te enseñaré una nueva habilidad como pago: Paso."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:dweller_armor_fragment"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:step\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

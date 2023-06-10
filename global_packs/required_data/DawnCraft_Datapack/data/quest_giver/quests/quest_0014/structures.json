@@ -1,0 +1,28 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:compass",
+  "start": {
+    "title": {
+      "text": "Los Ojos Desatendidos"
+    },
+    "description": {
+      "text": "Según mi conocimiento, actualmente hay 7 ojos que no tienen portadores. Los que se pueden encontrar en estructuras son el Maldito y el Antiguo. En cuanto a los demás... creo que la mayoría se pueden crear utilizando las fuerzas vitales de nuestro reino, mientras que algunos pueden haber sido robados por bestias conscientes. Los lugareños pueden saber más al respecto que yo. Sin embargo, sé que los clérigos actualmente tienen en su posesión el Ojo Malvado."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Los Ojos Desatendidos"
+    },
+    "description": {
+      "text": "Creo que no es necesario buscar más los ojos."
+    }
+  },
+  "tasks": [
+    {
+      "id": "afptweaks:advancement",
+      "advancement": "minecraft:end/kill_dragon"
+    }
+  ],
+  "rewards": []
+}

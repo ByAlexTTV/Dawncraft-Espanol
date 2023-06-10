@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "Saludos. Tengo algunos contratos de exterminación para ti, aventurero."
+    }
+  }
+}

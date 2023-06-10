@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 20,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "¡Ayuda!"
+    },
+    "description": {
+      "text": "Gracias por escuchar mi solicitud. ¿Estás al tanto de las 'torres de batalla' en esta dimensión? Están por todas partes en el mundo. Estoy particularmente interesado en las Torres de Tierra y el golem que reside en su interior. El ojo que deja caer el guardián contiene una tremenda energía cinética... ¿Crees que puedes ayudarme a conseguir uno para mis investigaciones?"
+    }
+  }
+}

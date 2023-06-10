@@ -1,0 +1,12 @@
+{
+  "reputation": 8,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "¡Hey!"
+    },
+    "description": {
+      "text": "¡Saludos! ¿Has ido ya a la dimensión Everbright o Everdawn? De cualquier manera, ¿podrías echarme una mano?"
+    }
+  }
+}

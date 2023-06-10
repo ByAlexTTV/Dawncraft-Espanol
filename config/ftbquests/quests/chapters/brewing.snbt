@@ -1,0 +1,85 @@
+{
+	id: "0AAD6825AAAC8DAF"
+	group: ""
+	order_index: 8
+	filename: "brewing"
+	title: "Fabricacion de pociones"
+	icon: "ars_nouveau:potion_flask"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Elaboracion de pociones"
+			x: 0.0d
+			y: 0.0d
+			description: ["For the most part, brewing works the same as in vanilla Minecraft. However, there are many more potions available to craft, which you can see via JEI. Additionally, players can craft potion charms to recieve powerful potion effects for a longer duration than usual, and these effects can even be made permanent via Infusion."]
+			size: 2.0d
+			id: "4424AAAF4D8A945E"
+			tasks: [{
+				id: "5B174619510F5A0D"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+			rewards: [{
+				id: "599741D31C4BF152"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Amuletos de pociones"
+			icon: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "minecraft:leaping"
+				}
+			}
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"Los jugadores pueden combinar múltiples pociones junto con Blaze Powder para crear amuletos de pociones. Se puede hacer clic con el botón derecho para activarlos o desactivarlos, y proporcionarán al jugador el efecto de la poción siempre que esté activo en el inventario del jugador o en la ranura del amuleto. Estos amuletos se pueden encantar con Impermeabilización o reparación para prolongar su duración."
+				""
+				"&b&lAmuletos irrompibles"
+				"Los amuletos se pueden infundir a través de una mesa de encantamiento para convertirlos en su versión irrompible. Los amuletos irrompibles proporcionarán sus efectos de forma permanente, pero aún se pueden activar y desactivar. Infundir un amuleto requiere el máximo de Eterna, entre 8,5 % y 13,5 % de Quanta, y entre 85 % y 95 % de Arcana. Consulta la pestaña de misiones \"Encantamiento\" para obtener más información sobre las infusiones."
+			]
+			dependencies: ["4424AAAF4D8A945E"]
+			size: 1.5d
+			id: "50A3AF120AA6375A"
+			tasks: [{
+				id: "4E2A1D32B612F8EC"
+				type: "checkmark"
+				title: "Leer"
+			}]
+			rewards: [{
+				id: "3CC09383FD379788"
+				type: "xp"
+				auto: "enabled"
+				xp: 10
+			}]
+		}
+		{
+			title: "Frascos de pociones, estante y frascos"
+			icon: "ars_nouveau:potion_jar"
+			x: 0.0d
+			y: -2.0d
+			description: ["Los jugadores pueden crear frascos de pociones para almacenar grandes cantidades de un tipo de poción, un mezclador de pociones para combinar los efectos de las pociones y frascos de pociones para almacenar más dosis de pociones en una sola botella, así como aumentar la fuerza o extender la duración. Consulta la pestaña de misiones \"Magia\" para obtener más detalles sobre estos dispositivos y artículos."]
+			dependencies: ["4424AAAF4D8A945E"]
+			size: 1.5d
+			id: "5238E383D811ED28"
+			tasks: [{
+				id: "1B1BBC8DD3E22900"
+				type: "checkmark"
+				title: "Leer"
+			}]
+			rewards: [{
+				id: "3EFB277FCE02CC46"
+				type: "xp"
+				auto: "enabled"
+				xp: 10
+			}]
+		}
+	]
+	quest_links: [ ]
+}

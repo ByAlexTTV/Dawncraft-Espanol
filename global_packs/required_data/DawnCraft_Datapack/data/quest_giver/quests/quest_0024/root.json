@@ -1,0 +1,12 @@
+{
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¡Aventurero! ¡Nuestro pueblo necesita tu ayuda!"
+    }
+  }
+}

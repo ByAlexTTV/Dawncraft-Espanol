@@ -1,0 +1,51 @@
+{
+  "parent": "quest_giver:quest_0071_01",
+  "reputation": 40,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "Por favor, regresa a mí si puedes encontrar el libro."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias!"
+    },
+    "description": {
+      "text": "Este libro tiene... valores sentimentales. Las palabras no pueden expresar cuán agradecido estoy por tu servicio. Toma esto. He oído que los aventureros también usan magia, ¿es eso cierto?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:written_book",
+        "forge:nbt": "{tag:\"librarian\"}"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:source_gem"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 8
+    }
+  ]
+}

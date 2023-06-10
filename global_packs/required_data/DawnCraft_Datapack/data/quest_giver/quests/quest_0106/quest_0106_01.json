@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 14,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "¿Y ahora?"
+    },
+    "description": {
+      "text": "¡Necesito un $(red)hacha de hierro$() para trabajar!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Gracias. ¿Aquí tienes, son suficientes 4 esmeraldas?"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:iron_axe"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:village @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

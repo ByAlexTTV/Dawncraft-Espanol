@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 40,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Recuperando un objeto precioso"
+    },
+    "description": {
+      "text": "Por favor, consigue una hoja de papel para que pueda dibujarte un mapa."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aquí está."
+    },
+    "description": {
+      "text": "Lamento las molestias. Aquí está el lugar al que quiero que vayas. Hay un libro allí que me pertenecía. Ese lugar solía ser un templo lleno de eruditos de todas las dimensiones, pero no sé cómo estará ahora. Por favor, procede con precaución y tráeme mi libro."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:librarian1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p librarian1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

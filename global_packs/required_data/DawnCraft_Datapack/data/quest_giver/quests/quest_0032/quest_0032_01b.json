@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Un poco de ayuda"
+    },
+    "description": {
+      "text": "¡Buena persona! ¿Podrías conseguirme un $(red)cuchillo de hierro$()? El mío acaba de romperse..."
+    }
+  }
+}

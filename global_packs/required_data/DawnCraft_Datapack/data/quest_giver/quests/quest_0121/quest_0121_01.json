@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Mapa al Guardián del Fin"
+    },
+    "description": {
+      "text": "Nada es gratis, amigo mío. Dame 5 esmeraldas y te daré la dirección hacia el Guardián del Fin."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Muy bien, aquí lo tienes. Recuerda, no abras este mapa hasta que estés en el Fin. No digas que no te lo advertí."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_3"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p enderian1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

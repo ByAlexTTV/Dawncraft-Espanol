@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 37,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Una Petición Urgente"
+    },
+    "description": {
+      "text": "El mal se acerca. ¿Me puedes ayudar a conseguir 16 lingotes de hierro? Necesito hacer más armas para los guardias... No estamos preparados."
+    }
+  }
+}

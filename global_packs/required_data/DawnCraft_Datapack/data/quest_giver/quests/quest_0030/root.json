@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:blast_furnace",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¡Hola! Ah, hola desconocido, ¡podría usar tu ayuda con algo!"
+    }
+  }
+}

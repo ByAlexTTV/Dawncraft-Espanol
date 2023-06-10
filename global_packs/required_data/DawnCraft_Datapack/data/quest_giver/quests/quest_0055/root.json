@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "¡Oye!"
+    },
+    "description": {
+      "text": "¡Hey aventurero, pareces haber pasado por el infierno, jaja! Solo bromeo, ¿puedes ayudarme con algo?"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 1,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "¡Ey!"
+    },
+    "description": {
+      "text": "¡Ey, amigo! ¿Me echas una mano?"
+    }
+  }
+}

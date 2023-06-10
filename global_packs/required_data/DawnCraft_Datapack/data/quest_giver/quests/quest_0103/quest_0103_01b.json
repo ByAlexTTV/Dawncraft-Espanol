@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 3,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "¡Ayuda!"
+    },
+    "description": {
+      "text": "¡Genial! Necesito $(red)2 Parches de Hemlock$(). Es demasiado tóxica para la mayoría de los animales, pero no para la vil bestia que estoy cazando..."
+    }
+  }
+}

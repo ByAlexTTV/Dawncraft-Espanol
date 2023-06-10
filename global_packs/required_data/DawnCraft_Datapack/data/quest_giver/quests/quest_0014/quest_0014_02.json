@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Camino hacia los Poseedores de los Ojos"
+    },
+    "description": {
+      "text": "¡Bien, parece que estás listo para una aventura! ¿Listo para encontrar tu primer ojo?"
+    }
+  }
+}

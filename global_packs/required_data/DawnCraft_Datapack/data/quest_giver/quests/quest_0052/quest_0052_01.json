@@ -1,0 +1,44 @@
+{
+	"parent": "quest_giver:quest_0052_01b",
+	"reputation": 1,
+	"icon": "minecraft:wheat_seeds",
+	"start": {
+		"title": {
+			"text": "¿Y bien?"
+		},
+		"description": {
+			"text": "¿Ya olvidaste? No te preocupes, déjame recordarte. Necesito una $(red)paca de paja$()."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "¡Gracias!"
+		},
+		"description": {
+			"text": "¡Una paca de paja! Ahora podremos hacernos sombreros de paja nuevos. Gracias, desconocido."
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "farmersdelight:straw_bale"
+		},
+		"id": "quest_giver:gift",
+		"times": 1
+	}],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_farmer",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:villager @p 1",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 1
+		}
+	]
+}

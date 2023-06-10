@@ -1,0 +1,12 @@
+{
+  "reputation": 7,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Hola"
+    },
+    "description": {
+      "text": "Hola amable señor. Mi cónyuge me ha estado pidiendo que cocine un plato llamado \"$(yellow)calabaza rellena$()\" y me da vergüenza admitir que no sé cómo hacerlo... ¿Podrías cocinar uno para mí?"
+    }
+  }
+}

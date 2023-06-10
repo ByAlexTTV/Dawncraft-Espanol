@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Una Oferta"
+    },
+    "description": {
+      "text": "Tengo una habilidad interesante que puedo enseñarte: Sostener dos grandes espadas al mismo tiempo. Sin embargo, eso te costará 25 Esmeraldas."
+    }
+  }
+}

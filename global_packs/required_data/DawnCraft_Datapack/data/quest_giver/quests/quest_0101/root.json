@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¿Puedes darme $(red)1 Rafflesia$() si te encuentras con alguna?"
+    }
+  }
+}

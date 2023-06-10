@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 8,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Conocimiento en Forestería"
+    },
+    "description": {
+      "text": "Gracias por escuchar mi solicitud. Recientemente he desarrollado un interés en la forestería y he estado estudiando mucho sobre los árboles en nuestra dimensión. Sin embargo, parece que hay otros tipos peculiares de árboles en otras dimensiones, como el Everbright y el Everdawn. ¿Crees que puedes ayudarme a recolectar un bloque de $(red)Hojas Crepusculares, Hojas de Arce y Hojas Estrelladas$() cada una para mi investigación?"
+    }
+  }
+}

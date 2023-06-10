@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "¿Y ahora?"
+    },
+    "description": {
+      "text": "Necesito tu ayuda para conseguir un sombrero de bruja, cualquiera servirá. Las brujas rara vez lo sueltan."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "¡TONT@! ¡AHORA VAMOS A TRAER LA PERDICIÓN A ESTE PUEBLO! ¡ME GLORÍO EN MI SACRIFICIO SI SIGNIFICA EL FIN DE ESTE PUEBLO!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "biomemakeover:witch_hat"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:tricked/tricked",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/execute as @a[advancements={custom:tricked/tricked=true},sort=nearest,limit=1] run function witch:start_witch_raid",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0063_01b",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Artesanía de Flechas"
+    },
+    "description": {
+      "text": "¿Ya conseguiste $(red)los 4 troncos de abeto$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Buen trabajo. Aquí tienes una esmeralda por tu trabajo."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:spruce_log"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

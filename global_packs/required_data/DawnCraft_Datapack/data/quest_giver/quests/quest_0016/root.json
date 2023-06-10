@@ -1,0 +1,12 @@
+{
+  "reputation": 3,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "Hola, me faltan algunas piezas para reparar mi máquina. ¿Podrías conseguirme $(red)una palanca y una llave inglesa de cobre$()?"
+    }
+  }
+}

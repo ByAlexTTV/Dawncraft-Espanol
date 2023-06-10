@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0030_01b",
+  "reputation": 12,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "Fabricación de alto horno"
+    },
+    "description": {
+      "text": "¡Hey! ¿Ya has fabricado el alto horno? ¡Asegúrate de fabricar uno nuevo en lugar de tomar los que ya existen!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Genial!"
+    },
+    "description": {
+      "text": "¡Genial! Sin duda puedo hacer mejores equipos con esta nueva instalación. ¡Gracias!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      },
+      "id": "quest_giver:craft",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

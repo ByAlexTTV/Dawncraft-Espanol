@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:enchanted_book",
+  "start": {
+    "title": {
+      "text": "La Habilidad Básica"
+    },
+    "description": {
+      "text": "Ah... No creo que puedas encontrar los ojos en tus condiciones actuales. Vuelve a mí una vez que hayas matado a $(red)10 saqueadores$(). Te daré la habilidad más importante que puedes obtener en esta dimensión."
+    }
+  }
+}

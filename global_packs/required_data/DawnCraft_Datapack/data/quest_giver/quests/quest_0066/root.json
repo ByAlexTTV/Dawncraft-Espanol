@@ -1,0 +1,12 @@
+{
+  "reputation": 24,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "¡Ey!"
+    },
+    "description": {
+      "text": "Tengo un trabajo para ti, aventurero."
+    }
+  }
+}

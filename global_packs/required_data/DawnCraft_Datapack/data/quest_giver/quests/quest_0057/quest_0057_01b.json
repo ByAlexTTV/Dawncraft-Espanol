@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Fabricando una Caña de Pescar"
+    },
+    "description": {
+      "text": "Mi caña de pescar está casi rota... ¿puedes hacerme una nueva? El artesano habitual está fuera de la ciudad estos días..."
+    }
+  }
+}

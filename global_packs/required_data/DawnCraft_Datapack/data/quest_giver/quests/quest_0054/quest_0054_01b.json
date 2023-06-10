@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "Nuestros equipos están un poco gastados... ¿crees que puedes conseguirnos una $(red)azada de hierro$()?"
+    }
+  }
+}

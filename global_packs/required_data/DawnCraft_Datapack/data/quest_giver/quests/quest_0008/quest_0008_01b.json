@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "ayuda"
+    },
+    "description": {
+      "text": "He escuchado cosas buenas sobre tu trabajo. Necesito que recolectes algunos bienes exóticos, específicamente: $(red)piel de león$(). Necesito 4 de ellas. Vuelve cuando tengas los bienes."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0098_01b",
+  "reputation": 20,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¿Has derrotado al golem de tierra y obtenido su $(red)Ojo del Golem$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "¡Por los cielos! Este es uno de los objetos más fascinantes que he visto. Es más de lo que jamás imaginé. Toma estos redstones como pago. Lamento no tener esmeraldas en este momento."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "ba_bt:guardian_eye_land"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "id": "quest_giver:item",
+      "times": 32
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

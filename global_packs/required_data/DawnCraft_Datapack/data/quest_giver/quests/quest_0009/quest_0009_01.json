@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0009_01b",
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Misión de Recolección"
+    },
+    "description": {
+      "text": "Por favor, vuelve cuando hayas recolectado $(red)4 tintas()s."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Muchas gracias. Desafortunadamente, hemos descubierto que también se está agotando nuestro suministro de papel... ¿Crees que podrías ayudarnos a conseguir 10 hojas de papel por ahora? Pronto repondremos, pero realmente apreciaríamos tu ayuda."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:ink_sac"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

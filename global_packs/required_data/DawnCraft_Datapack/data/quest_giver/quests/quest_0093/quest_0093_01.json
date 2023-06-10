@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 50,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "¡Ayuda!"
+    },
+    "description": {
+      "text": "Hay una criatura oculta que vive en las profundidades de la dimensión del End: el Gusano del Vacío. Puedes invocarlo lanzando la larva a las profundidades del End. La larva se puede crear lanzando larvas de mosquitos carmesíes en la cápsida de los enderiófagos."
+    }
+  }
+}

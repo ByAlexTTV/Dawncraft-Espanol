@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¡Hola chico! ¿Puedes conseguirme una pieza de $(red)Dusk Log$()? Se puede encontrar en la dimensión Everdawn."
+    }
+  }
+}

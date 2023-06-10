@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0053_05",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Entonces?"
+    },
+    "description": {
+      "text": "Bueno, qué presumido eres. ¿Acaso mencioné algo sobre una recompensa? Vete ahora, muchacho, antes de que llame a los guardias."
+    }
+  }
+}

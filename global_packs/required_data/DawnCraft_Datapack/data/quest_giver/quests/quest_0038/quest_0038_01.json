@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0038_01b",
+  "reputation": 13,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "¡Exploración!"
+    },
+    "description": {
+      "text": "Regresa a mí cuando hayas visitado estos 3 biomas: Arena Antigua, Picos Volcánicos, Meseta Blanca."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Terminado"
+    },
+    "description": {
+      "text": "Gracias por tus detalladas explicaciones. Creo que podré dibujarlos basándome en tu descripción. Aquí tienes tu recompensa."
+    }
+  },
+  "tasks": [
+    {
+      "id": "afptweaks:advancement",
+      "advancement": "custom:traveller"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_cartographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

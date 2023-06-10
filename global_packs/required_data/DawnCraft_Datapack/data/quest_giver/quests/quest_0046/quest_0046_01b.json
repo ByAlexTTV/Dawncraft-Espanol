@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Exterminar"
+    },
+    "description": {
+      "text": "Hay un nuevo tipo de maldad manifestándose en la dimensión. Estas criaturas mitad hombre, mitad bestia se llaman $(red)bestias plateadas$(). Puedes encontrarlas deambulando por la noche. Extermina a 2 de estas criaturas impías y regresa a mí."
+    }
+  }
+}

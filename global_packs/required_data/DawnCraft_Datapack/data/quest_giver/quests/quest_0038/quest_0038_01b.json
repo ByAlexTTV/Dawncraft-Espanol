@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "¡Exploración!"
+    },
+    "description": {
+      "text": "Básicamente, necesito ayuda para entender cómo lucen diferentes biomas para poder dibujarlos mejor en los mapas. Como aventurero, ¡pensé que eras perfecto para el trabajo! Hay 3 biomas en los que estoy interesado: Los acantilados blancos, las arenas antiguas y los picos volcánicos."
+    }
+  }
+}

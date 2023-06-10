@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¡Bienvenido! Parece que es la primera vez que visitas el gremio. ¿Te gustaría embarcarte en tu primera misión?"
+    }
+  }
+}

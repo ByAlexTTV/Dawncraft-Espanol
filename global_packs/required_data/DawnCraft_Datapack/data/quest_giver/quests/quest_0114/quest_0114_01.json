@@ -1,0 +1,52 @@
+{
+  "parent": "quest_giver:quest_0114_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "¡Y entonces?"
+    },
+    "description": {
+      "text": "¿Ya lo olvidaste? Derrota al Fantasma de la Capitana Cornelia con tu arma cuerpo a cuerpo. Luego ven a mí para reclamar tu recompensa."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "¡Loco! ¡De verdad lo has hecho! Aquí, toma tu recompensa. ¿Escuché que les gustan los diamantes, verdad? ¡Toma algunos!"
+    }
+  },
+  "tasks": [
+    {
+      "entity": "ob_aquamirae:captain_cornelia",
+      "id": "quest_giver:kill",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_oceanographer",
+      "id": "quest_giver:command"
+    },    
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

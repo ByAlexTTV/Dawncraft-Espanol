@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0113_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "¿Y entonces?"
+    },
+    "description": {
+      "text": "¿Podrías traerme un trozo de papel? Te dibujaré un mapa."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Por favor, ve a esta ubicación e intenta... extraer las gemas de la criatura. Tráeme las gemas, por favor. Me aseguraré de que valga la pena para ti."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:weaponsmith1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p weaponsmith1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0083_01b",
+  "reputation": 13,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Un objeto precioso"
+    },
+    "description": {
+      "text": "Por favor, consígueme un trozo de $(red)papel$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "Aquí tienes, por favor, devuélveme mi querida hacha. Fue mi mejor trabajo hasta ahora."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+         "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:toolsmith1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p toolsmith1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}
