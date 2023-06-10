@@ -9,7 +9,6 @@ CurseForge|Versión del Modpack|Estado
 - FTBQuests ---> 80%
 - Epic Fight Mod ---> 0%
 - DawnCraft Mobs ---> 0%
-- Jefes/Bosses ---> 0%
 
 ## Links
 - [YouTube: ByAlexTTV](https://www.youtube.com/@ByAlexTTV)
