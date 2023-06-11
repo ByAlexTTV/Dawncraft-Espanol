@@ -65,11 +65,11 @@
 			y: -5.0d
 			subtitle: "Una lista de combinaciones de teclas que deberías conocer."
 			description: [
-				"   Pulsa \"i\" obtener información sobre su última muerte"
-				"    Pulsa \"r\" activar/desactivar el modo combate"
+				"Pulsa \"i\" obtener información sobre su última muerte"
+				"Pulsa \"r\" activar/desactivar el modo combate"
 				"     Pulsa \"b\" para abrir tu mochila \\n                 (si esta equipada)"
-				"      Pulsa \"n\" para abrir tu quiver\\n                 (si esta equipada)"
-				"          Pulsa \"k\" para comprobar y\\n            seleccionar las habilidades activadas"
+				"     Pulsa \"n\" para abrir tu quiver\\n                 (si esta equipada)"
+				"Pulsa \"k\" para comprobar y seleccionar las habilidades activadas"
 			]
 			id: "726F1FFCA2697CF6"
 			tasks: [{
@@ -85,13 +85,13 @@
 			description: [
 				"    Crónicas Sombrías (Apotheosis)"
 				"  Encyclopedia of life (Untamed Wilds)"
-				"      Enciclopedia de animales (Alex's Mobs)"
+				" Enciclopedia de animales (Alex's Mobs)"
 				"    The Great Butter Book (Lil' Wings)"
 				"         Book of Shadows (Hexerei)"
-				"       Cuaderno Desgastado (Ars Nouveau)"
+				"   Cuaderno Desgastado (Ars Nouveau)"
 				"Cloud Storage and You (Cloud Storage)"
-				"              Paladin's Furniture"
-				"          Food Book (Spice of Life)"
+				"          Paladin's Furniture"
+				"        Food Book (Spice of Life)"
 			]
 			id: "5540C43EFDAE8E3B"
 			tasks: [{
@@ -123,7 +123,7 @@
 			y: -7.0d
 			subtitle: "¿Por qué los aldeanos no interactúan conmigo?"
 			description: [
-				"La información está disponible en la wiki. Pero un error común es que los jugadores saqueen cofres que no han colocado delante de los aldeanos. Esto no sólo se aplica a los cofres dentro de las aldeas. Si un aldeano te ve cometer un "crimen" en cualquier parte del mundo, tu reputación disminuirá. \\La cantidad máxima de paquetes de monedas que necesitarás para mejorar tu reputación es de 8. Pero es muy poco probable que eso ocurra, a menos que masacres aldeas. La mayoría de las veces 1-2 monedas liadas serán suficientes."
+				"La información está disponible en la wiki. Pero un error común es que los jugadores saqueen cofres que no han colocado delante de los aldeanos. Esto no sólo se aplica a los cofres dentro de las aldeas. Si un aldeano te ve cometer un \"crimen\" en cualquier parte del mundo, tu reputación disminuirá. La cantidad máxima de paquetes de monedas que necesitarás para mejorar tu reputación es de 8. Pero es muy poco probable que eso ocurra, a menos que masacres aldeas. La mayoría de las veces 1-2 monedas liadas serán suficientes."
 				"\\nSin embargo, si usted siente que su baja reputación es juzgado mal y le gustaría empezar en 0 rep, activar los tramposos y hacer \\n/setreputation reputation:villager @p 0"
 				"\\nTen en cuenta que TAMBIÉN necesitarás un pergamino de comercio además de tener suficiente reputación para comerciar con un aldeano. El pergamino de comercio se puede obtener completando misiones de aldeano."
 			]
@@ -140,7 +140,7 @@
 			subtitle: "¿Cómo se detecta la finalización de las misiones principales?"
 			description: [
 				"Además de matar a los saqueadores y al Rey Duende, todas las demás misiones principales se detectan cuando el jugador recoge los ojos de ender."
-				"\\nAsí que si has matado a uno de los jefes ("Poseedores de Ojos") de antemano y has obtenido el ojo. Todo lo que tienes que hacer es dejar caer el ojo que el Eye Holder sostenía, y luego recogerlo de nuevo. Con eso deberias poder completar la quest del guildmaster."
+				"\\nAsí que si has matado a uno de los jefes (Poseedores de Ojos) de antemano y has obtenido el ojo. Todo lo que tienes que hacer es dejar caer el ojo que el Poseedor tenía, y luego recogerlo de nuevo. Con eso deberias poder completar la quest del guildmaster."
 			]
 			id: "08F5174D848D7DF0"
 			tasks: [{
@@ -156,8 +156,8 @@
 			subtitle: "¿Qué shader debo utilizar?"
 			description: [
 				"             Mejor rendimiento:\\n           - Sildurs Vibrant Lite\\n"
-				"      Recomendado por Mejores efectos visuales:\\n        - Complimentary Reimagined"
-				"\\n        Pruebe otros si éstos no \\n           se ajustan a sus preferencias!"
+				"      Mejores efectos visuales:\\n        - Complimentary Reimagined"
+				"\\n   Pruebe otros si éstos no se ajustan a sus preferencias!"
 			]
 			id: "7644BDD80B6EDA44"
 			tasks: [{
@@ -171,10 +171,10 @@
 			y: -6.0d
 			subtitle: "¿Cómo protejo mis propiedades en un servidor?"
 			description: [
-				"Echa un vistazo al mod 'Claim Chunks'. Este mod añade un nuevo bloque - Bloque de Reclamo en el juego. \\n\\¡Visita su página de CurseForge para aprender a personalizar los permisos de tus chunk!"
-				"\\n*La cantidad máxima de chunks que un jugador puede reclamar es de 8 por defecto."
-				"\\n*Para ver los chunks presiona F3 + G"
-				"\\n*Desactiva los shaders para ver mejor los chunks."
+				"Echa un vistazo al mod 'Claim Chunks'. Este mod añade un nuevo bloque - Bloque de Reclamo en el juego. \\n¡Visita su página de CurseForge para aprender a personalizar los permisos de tus chunk!"
+				"\\n* La cantidad máxima de chunks que un jugador puede reclamar es de 8 por defecto."
+				"\\n* Para ver los chunks presiona F3 + G"
+				"\\n* Desactiva los shaders para ver mejor los chunks."
 			]
 			id: "2294C358D1153CAE"
 			tasks: [{
@@ -188,7 +188,7 @@
 			x: 3.5d
 			y: -5.0d
 			subtitle: "¿Cómo activar el menú de configuración de gráficos normal?"
-			description: ["         Pulse  \"Shift\" + \"P\" en el\\n               menú de gráficos."]
+			description: [" Pulse  \"Shift\" + \"P\" en el menú de gráficos."]
 			id: "0E4410A648272A97"
 			tasks: [{
 				id: "79729BB3AB3E564D"
@@ -201,8 +201,8 @@
 			y: -4.0d
 			subtitle: "¿Por qué no funciona ProjectMMO?"
 			description: [
-				"   El mod se utiliza de forma diferente\\n    en este pack. Olvídese de que existe."
-				"\\n   Aprovechamos la gran capacidad de\\n personalización de PMMO para crear competencias especiales\\n  como Conocimientos y establecer requisitos\\n                    para los objetos."
+				"El mod se utiliza de forma diferente en este pack. Olvídese de que existe."
+				"\\n Aprovechamos la gran capacidad de personalización de PMMO para crear competencias especiales como Conocimientos y establecer requisitos para los objetos."
 			]
 			id: "217D8862894AE01D"
 			tasks: [{
@@ -244,7 +244,7 @@
 			subtitle: "¿Cómo habilitar el respawn de los jefes portadores de ojos para los servidores?"
 			description: [
 				"  /gamerule doDCBossesRespawn true"
-				"\\n     Tenga en cuenta que sólo los jugadores que\\n     han avanzando por la línea de misión \\n  principal puedes volver a invocar al jefe."
+				"\\n Tenga en cuenta que sólo los jugadores que han avanzando por la línea de misión principal puedes volver a invocar al jefe."
 			]
 			id: "1708A5D4E536662D"
 			tasks: [{

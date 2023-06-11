@@ -81,7 +81,7 @@
 			tasks: [{
 				id: "7001FA74512AAD19"
 				type: "kill"
-				title: "Nueve colas"
+				title: "Nueve Colas"
 				icon: "alexsmobs:lobster_tail"
 				entity: "simple_mobs:nine_tails"
 				value: 1L
