@@ -48,5 +48,15 @@
   "item.quest_giver.trading_contract_woodworker": "Contrato de comercio: Gremio de Ebanistas",
   "item.quest_giver.trading_contract_beekeeper": "Contrato de comercio: Gremio de Apicultores",
   "message.quest_giver.quest_completion": "¡Misión completada!",
-  "message.quest_giver.itemmessage": "Mantén \"%s\" para más información"
+  "message.quest_giver.itemmessage": "Mantén \"%s\" para más información",
+  "text.quest_giver.accept1": "¡Lo haré!",
+  "text.quest_giver.accept2": "Seguro",
+  "text.quest_giver.accept3": "¡De acuerdo!",
+  "text.quest_giver.accept4": "¡Bien!",
+  "text.quest_giver.accept5": "¡Acepto!",
+  "text.quest_giver.decline1": "Tal vez más tarde.",
+  "text.quest_giver.decline2": "Estoy ocupado/a",
+  "text.quest_giver.decline3": "No, lo siento.",
+  "text.quest_giver.decline4": "Ahora no",
+  "text.quest_giver.decline5": "¡Rechazo!"
 }

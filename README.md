@@ -9,6 +9,7 @@ CurseForge|Versión del Modpack|Minecraft|Estado
 - FTBQuests ---> 80%
 - DawnCraft Mobs ---> 100%
 - Epic Fight Mod ---> 100%
+- Quest Giver ---> 100%
 
 
 ## Links
