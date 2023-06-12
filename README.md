@@ -7,8 +7,8 @@ CurseForge|Versión del Modpack|Minecraft|Estado
 ## Trabajo Realizado
 - Misiones de Aldeanos ---> 100%
 - FTBQuests ---> 80%
-- DawnCraft Mobs ---> 37%
-- Epic Fight Mod ---> 0%
+- DawnCraft Mobs ---> 100%
+- Epic Fight Mod ---> 100%
 
 
 ## Links

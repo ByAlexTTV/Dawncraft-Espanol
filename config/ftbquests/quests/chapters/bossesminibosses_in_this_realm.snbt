@@ -266,7 +266,7 @@
 			tasks: [{
 				id: "5F2D3A4E907757BC"
 				type: "kill"
-				title: "Caballero Rober, Primordial"
+				title: "Caballero Primordial, Rober"
 				icon: {
 					id: "magistuarmory:ceremonialarmet"
 					Count: 1b
