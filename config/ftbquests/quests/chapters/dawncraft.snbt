@@ -62,7 +62,7 @@
 			title: "Reputacion (y cómo restaurarla)"
 			x: -1.5d
 			y: -3.0d
-			description: ["Los Emerald Bundles se pueden donar al maestro del gremio de cualquier pueblo para restaurar tu reputación. Estos se pueden fabricar con 8 esmeraldas y un cuero. Para donar, simplemente ubique al Guild Master (un aldeano vestido de azul, que vive en una choza con techo rojo) y haga clic con el botón derecho en el cuadro de donación en su mostrador con un paquete para donar. El jugador deberá dormir para que la donación surta efecto. Es posible que se necesiten múltiples para restaurar completamente la reputación. La reputación se reduce al saquear cofres o barriles frente a los aldeanos o al dañarlos. Si tu reputación es baja, no puedes recibir misiones o intercambios de los aldeanos, ni convertirte en misiones existentes."]
+			description: ["El Paquete de Esmeraldas se pueden donar al maestro del gremio de cualquier pueblo para restaurar tu reputación. Estos se pueden fabricar con 8 esmeraldas y un cuero. Para donar, simplemente ubique al Guild Master (un aldeano vestido de azul, que vive en una choza con techo rojo) y haga clic con el botón derecho en el cuadro de donación en su mostrador con un paquete para donar. El jugador deberá dormir para que la donación surta efecto. Es posible que se necesiten múltiples para restaurar completamente la reputación. La reputación se reduce al saquear cofres o barriles frente a los aldeanos o al dañarlos. Si tu reputación es baja, no puedes recibir misiones o intercambios de los aldeanos, ni convertirte en misiones existentes."]
 			dependencies: ["49AF23C212917B34"]
 			id: "257D44B8882C8937"
 			tasks: [{

@@ -851,7 +851,7 @@
 					id: "0206FC6701ED673E"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",{\"text\":\"It seems your reputation is \"},{\"text\":\"bad\",\"bold\":true,\"color\":\"red\"},{\"text\":\" among villagers. You have been \"},{\"text\":\"forgiven\",\"bold\":true,\"color\":\"aqua\"},{\"text\":\" since this is your first offense... But next time, villagers will stop trading with you. If your reputation drops even further, guards and iron golems may start attacking you. You can improve your reputation by handing in \"},{\"text\":\"bundled currency\",\"bold\":true,\"color\":\"green\"},{\"text\":\" (craftable) \",\"italic\":true},{\"text\":\"into the ledger chests inside guild houses or stalls.\"}]"
+					command: "/tellraw @p [\"\",{\"text\":\"Parece que tu reputación es \"},{\"text\":\"mala\",\"bold\":true,\"color\":\"red\"},{\"text\":\" entre los aldeanos. Has sido \"},{\"text\":\"perdonado\",\"bold\":true,\"color\":\"aqua\"},{\"text\":\" ya que esta es tu primera ofensa... Pero la próxima vez, los aldeanos dejarán de comerciar contigo. Si tu reputación baja aún más, los guardias y los gólems de hierro podrían empezar a atacarte. Puedes mejorar tu reputación entregando un \"},{\"text\":\"Paquete de Esmeraldas\",\"bold\":true,\"color\":\"green\"},{\"text\":\" (crafteable) \",\"italic\":true},{\"text\":\"en los cofres del libro mayor dentro de las casas gremiales o los puestos.\"}]"
 					player_command: false
 				}
 				{
