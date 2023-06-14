@@ -1377,7 +1377,7 @@
 			icon: "simple_mobs:bundled_emerald"
 			x: -4.0d
 			y: -1.0d
-			subtitle: "Reemplace mapas para cualquiera de las misiones principales de Guild Master (Poseedores de ojos y Rey Duende)"
+			subtitle: "Reemplace mapas para cualquiera de las misiones principales de Maestro del Gremio (Poseedores de ojos y Rey Duende)"
 			dependencies: ["0DA136A1D5894848"]
 			id: "0ABA6BD0DB5C112A"
 			tasks: [{

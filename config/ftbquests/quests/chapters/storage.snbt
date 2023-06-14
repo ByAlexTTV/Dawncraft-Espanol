@@ -29,7 +29,7 @@
 			title: "Storage Drawers"
 			x: 2.25d
 			y: 0.0d
-			description: ["Storage Drawers are the perfect solution for when you need to store A LOT of one type of item. Great for things you will have a ton of and want easy access to (or discard of). These can be crafted in variants with additional drawers to store a few different stacks in one block, and can be upgraded to hold more stacks worth of items."]
+			description: ["Los cajones de almacenamiento son la solución perfecta para cuando necesita almacenar MUCHO de un tipo de artículo. Son perfectos para cosas de las que tendrás un montón y a las que querrás acceder fácilmente (o desechar). Se pueden fabricar en variantes con cajones adicionales para almacenar varias pilas diferentes en un bloque, y se pueden mejorar para guardar más pilas de objetos."]
 			dependencies: ["4D1B105EE54EDEAF"]
 			size: 1.5d
 			id: "15C8700EFE52353A"
@@ -49,14 +49,14 @@
 			icon: "cloudstorage:cloud_chest"
 			x: 0.0d
 			y: -2.0d
-			description: ["Cloud Storage can take some time to acquire the required materials, however it offers a very flexible storage system. Want one large storage network? Several smaller ones? Several large, seperate networks? Cloud storage can do it all - just be sure you aren't afraid of heights!"]
+			description: ["El almacenamiento en la nube puede tardar algún tiempo en adquirir los materiales necesarios, pero ofrece un sistema de almacenamiento muy flexible. ¿Quiere una gran red de almacenamiento? ¿Varias más pequeñas? ¿Varias redes grandes y separadas? El almacenamiento en la nube puede hacerlo todo, ¡sólo asegúrate de no tener miedo a las alturas!"]
 			dependencies: ["4D1B105EE54EDEAF"]
 			size: 1.5d
 			id: "6578C82B120DE0EA"
 			tasks: [{
 				id: "7F2BD0E1BBFBF5C1"
 				type: "checkmark"
-				title: "Read"
+				title: "Leer"
 			}]
 			rewards: [{
 				id: "6529B7B6EEBBFEB9"
@@ -67,7 +67,7 @@
 		{
 			x: 0.0d
 			y: -3.5d
-			description: ["To get started with cloud storage, you will need balloon pieces to craft a balloon, and cloud blocks. Baloon mobs spawn above Y=196, as do cloud mobs, so you better find some mountains! It is not a bad idea to build a platform in the air to fight them more easily, and a bow certainly helps. Baloons drop pieces which can be crafted with string to make a balloon, and cloud mobs drop cloud blocks, which can be used to craft cloud chests. "]
+			description: ["Para empezar con el almacenamiento en la nube, necesitarás piezas de globo para crear un globo y bloques de nube. Los baloon mobs aparecen por encima de Y=196, al igual que los cloud mobs, así que será mejor que encuentres algunas montañas. No es mala idea construir una plataforma en el aire para combatirlos más fácilmente, y un arco sin duda ayuda. Los globos sueltan piezas que se pueden fabricar con cuerda para hacer un globo, y los monstruos de las nubes sueltan bloques de nube, que se pueden usar para fabricar cofres de nube. "]
 			dependencies: ["6578C82B120DE0EA"]
 			id: "34A5470646A4CE63"
 			tasks: [{
@@ -84,7 +84,7 @@
 		{
 			x: 0.0d
 			y: -5.0d
-			description: ["The last step to set up your cloud storage is to place a cloud chest anywhere directly beneath a sky block (not indoors!). Right-click it with a balloon, and its inventory will sync-up with all cloud chests of the same balloon color. Additional chests of the same balloon color will all connect to the same storage network."]
+			description: ["El último paso para configurar tu almacenamiento en la nube es colocar un cofre nube en cualquier lugar directamente debajo de un bloque celeste (¡no en el interior!). Haz clic con el botón derecho del ratón sobre él con un globo y su inventario se sincronizará con todos los cofres nube del mismo color de globo. Los cofres adicionales del mismo color de globo se conectarán a la misma red de almacenamiento."]
 			dependencies: ["34A5470646A4CE63"]
 			id: "5209737ECC6EC599"
 			tasks: [{
@@ -102,7 +102,7 @@
 		{
 			x: 0.0d
 			y: -6.5d
-			description: ["Static Balloons and Static Chests can be used to create a cloud inventory that can be accessed by all players. This is great for groups looking to share inventories. Static cloud blocks can be obtained by fighting cloud mobs during thunder storms. Place a static cloud block and right-click it with a balloon to charge the balloon. Craft the static cloud chest from static cloud blocks."]
+			description: ["Los globos estáticos y los cofres estáticos se pueden utilizar para crear un inventario en la nube al que puedan acceder todos los jugadores. Esto es ideal para grupos que quieran compartir inventarios. Los bloques de nube estáticos se pueden obtener luchando contra las turbas de nube durante las tormentas de truenos. Coloca un bloque de nube estática y haz clic derecho sobre él con un globo para cargarlo. Crea el cofre de nube estática con bloques de nube estática."]
 			dependencies: ["5209737ECC6EC599"]
 			id: "34ABF0F5257443E6"
 			tasks: [
@@ -244,7 +244,7 @@
 		{
 			x: -1.7999999999999998d
 			y: 0.0d
-			description: ["Press B to open (by default). Can be equipped to your backpack equipment slot in the Curios menu."]
+			description: ["Pulsa B para abrirlo (por defecto). Se puede equipar en la ranura de equipo de tu mochila en el menú Curiosidades."]
 			dependencies: ["4D1B105EE54EDEAF"]
 			size: 1.2d
 			id: "31FF51CECF71BD12"

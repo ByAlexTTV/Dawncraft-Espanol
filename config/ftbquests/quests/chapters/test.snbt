@@ -877,7 +877,7 @@
 				id: "707451785BD080B1"
 				type: "command"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",{\"text\":\"You can press \"},{\"text\":\"\\\"R\\\"\",\"bold\":true,\"color\":\"green\"},{\"text\":\" to Enter Combat Stance. Damage dealt in regular stance deals \"},{\"text\":\"half\",\"bold\":true,\"color\":\"red\"},{\"text\":\" as much damage as you would in combat stance. \"}]"
+				command: "/tellraw @p [\"\",{\"text\":\"Puedes pulsar \"},{\"text\":\"\\\"R\\\"\",\"bold\":true,\"color\":\"green\"},{\"text\":\" para entrar en posición de combate. El daño infligido en posición normal inflige la \"},{\"text\":\"mitad\",\"bold\":true,\"color\":\"red\"},{\"text\":\" de daño que en posición de combate. \"}]"
 				player_command: false
 			}]
 		}
@@ -895,7 +895,7 @@
 				id: "23A84067614F3CE4"
 				type: "command"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",{\"text\":\"It seems you have found the means to travel to \"},{\"text\":\"the Nether\",\"bold\":true,\"color\":\"red\"},{\"text\":\". This will bring chaos to not only you, but to the \"},{\"text\":\"entire realm\",\"bold\":true,\"color\":\"aqua\"},{\"text\":\". Once you enter, it cannot be undone. Make sure you have the resolve to move forward before stepping in the portal.\"}]"
+				command: "/tellraw @p [\"\",{\"text\":\"Parece que has encontrado los medios para viajar al \"},{\"text\":\"Nether\",\"bold\":true,\"color\":\"red\"},{\"text\":\". Esto traerá el caos no sólo a ti, sino a \"},{\"text\":\"todo el reino\",\"bold\":true,\"color\":\"aqua\"},{\"text\":\". Una vez que entras, no se puede deshacer. Asegúrate de tener la determinación de seguir adelante antes de entrar en el portal.\"}]"
 				player_command: false
 			}]
 		}
@@ -913,7 +913,7 @@
 				id: "3542688F80E1C6D8"
 				type: "command"
 				auto: "invisible"
-				command: "/tellraw @p {\"text\":\"Congratulations on taming your first horse! You can now set it to your personal horse (Press \\\"J\\\"), and call your horse from anywhere in the realm (Press \\\"H).\"}"
+				command: "/tellraw @p {\"text\":\"¡Enhorabuena por domar a tu primer caballo! Ahora puedes asignarlo a tu caballo personal (pulsa \\\"J\\\"), y llamarlo desde cualquier punto del reino (pulsa \\\"H\\\").\"}"
 				player_command: false
 			}]
 		}
@@ -938,7 +938,7 @@
 				id: "152C911A2EDB4822"
 				type: "command"
 				auto: "invisible"
-				command: "/tellraw @p {\"text\":\"Congratulations on obtaining your first skill! You can now see a list of skills you've acquired, and change the specific skills you want to equip (Press \\\"K\\\").\"}"
+				command: "/tellraw @p {\"text\":\"¡Enhorabuena por obtener tu primera habilidad! Ahora puedes ver una lista de las habilidades que has adquirido, y cambiar las habilidades específicas que quieres equipar (Pulsa \\\"K\\\").\"}"
 				player_command: false
 			}]
 		}
@@ -955,7 +955,7 @@
 				id: "7B0591F07EC96892"
 				type: "command"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",{\"text\":\"Seems you've found a village! You can interact with villagers who have exclamation marks above their head. Some of them provide \"},{\"text\":\"knowledge \",\"bold\":true,\"color\":\"green\"},{\"text\":\"required to work with certain blocks such as Loom, Fletching Table, etc... But for most of the useful blocks, such as Anvil, Enchanting Table, Smithing Table, etc... You will want to learn it from the \"},{\"text\":\"Guild Master\",\"bold\":true,\"color\":\"aqua\"},{\"text\":\". Find villagers wearing blue robe and start your journey!\"}]"
+				command: "/tellraw @p [\"\",{\"text\":\"¡Parece que has encontrado un pueblo! Puedes interactuar con los aldeanos que tienen signos de exclamación sobre la cabeza. Algunos de ellos te proporcionarán los \"},{\"text\":\"knowledge \",\"bold\":true,\"color\":\"green\"},{\"text\":\"necesarios para trabajar con determinados bloques, como el telar, la mesa de plumas, etc... Pero para la mayoría de los bloques útiles, como el Yunque, la Mesa de Encantamiento, la Mesa de Herrería, etc... Tendrás que aprenderlo del  \"},{\"text\":\"Maestro del Gremio\",\"bold\":true,\"color\":\"aqua\"},{\"text\":\". Busca aldeanos con túnica azul y comienza tu viaje.\"}]"
 				player_command: false
 			}]
 		}
@@ -1011,7 +1011,7 @@
 				id: "01214ACE5D82E719"
 				type: "command"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",{\"text\":\"Seems you've obtained a trading scroll! Note that trade prices are absurdly \"},{\"text\":\"high \",\"bold\":true,\"color\":\"red\"},{\"text\":\"when you are have neutral reputation. Gain higher reputation by completing Villager quests. Once villagers start to like you, you will see the trade prices drop \"},{\"text\":\"tremendously\",\"bold\":true,\"color\":\"green\"},{\"text\":\"!\"}]"
+				command: "/tellraw @p [\"\",{\"text\":\"¡Parece que has conseguido un pergamino de comercio! Ten en cuenta que los precios del comercio son absurdamente \"},{\"text\":\"altos \",\"bold\":true,\"color\":\"red\"},{\"text\":\"cuando tienes una reputación neutral. Gana reputación completando misiones de aldeano. Cuando empieces a gustar a los aldeanos, verás que los precios bajan ¡\"},{\"text\":\"muchísimo\",\"bold\":true,\"color\":\"green\"},{\"text\":\"!\"}]"
 				player_command: false
 			}]
 		}
@@ -1286,7 +1286,7 @@
 				id: "1246B523C0F3419C"
 				type: "command"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",{\"text\":\"You have obtained an \"},{\"text\":\"essence\",\"bold\":true,\"color\":\"red\"},{\"text\":\". You'll need to consume it for the horned statue to recognize it.\"}]"
+				command: "/tellraw @p [\"\",{\"text\":\"Has obtenido una \"},{\"text\":\"esencia\",\"bold\":true,\"color\":\"red\"},{\"text\":\". Tendrás que consumirla para que la estatua cornuda la reconozca.\"}]"
 				player_command: false
 			}]
 		}
@@ -1310,8 +1310,8 @@
 						}]
 						map: 10
 						display: {
-							Lore: ["{\"text\":\"A map given by a fallen adventurer to locate a church.\"}"]
-							Name: "{\"text\":\"A Suspicious Map\"}"
+							Lore: ["{\"text\":\"Un mapa dado por un aventurero caído para localizar una iglesia.\"}"]
+							Name: "{\"text\":\"Un mapa sospechoso\"}"
 						}
 					}
 				}
@@ -1347,8 +1347,8 @@
 						}]
 						map: 11
 						display: {
-							Lore: ["{\"text\":\"Father Gascoigne's whereabouts.\"}"]
-							Name: "{\"text\":\"Location of the Father\"}"
+							Lore: ["{\"text\":\"El paradero del Padre Gascoigne.\"}"]
+							Name: "{\"text\":\"Localización del Padre\"}"
 						}
 					}
 				}
@@ -1381,8 +1381,8 @@
 						}]
 						map: 16
 						display: {
-							Lore: ["{\"text\":\"A map leading you to the most powerful being within the realm.\"}"]
-							Name: "{\"text\":\"The True End's Portal\"}"
+							Lore: ["{\"text\":\"Un mapa que te lleva al ser más poderoso del reino.\"}"]
+							Name: "{\"text\":\"El Verdadero Portal del END\"}"
 						}
 					}
 				}

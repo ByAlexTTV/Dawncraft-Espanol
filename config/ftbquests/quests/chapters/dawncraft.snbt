@@ -39,7 +39,7 @@
 			x: -1.5d
 			y: -5.25d
 			description: [
-				"Los pueblos son de gran importancia. El Guild Master NPC, que se encuentra en cada aldea, guiará a los jugadores a través de la búsqueda principal de este modpack. Esta misión principal es necesaria para desbloquear el encantamiento, la herrería y otras mejoras y automatización de equipos. Estas misiones verán a los jugadores cazar jefes por sus raras variantes de ojos ender. La cabaña del Guild Master también es donde puedes comprobar tu reputación de aldeano (a través del libro de reputación) y donar paquetes de esmeraldas (a través del cuadro de donación). Más sobre la reputación en la siguiente sección."
+				"Los pueblos son de gran importancia. El Maestro del Gremio NPC, que se encuentra en cada aldea, guiará a los jugadores a través de la búsqueda principal de este modpack. Esta misión principal es necesaria para desbloquear el encantamiento, la herrería y otras mejoras y automatización de equipos. Estas misiones verán a los jugadores cazar jefes por sus raras variantes de ojos ender. La cabaña del Maestro del Gremio también es donde puedes comprobar tu reputación de aldeano (a través del libro de reputación) y donar paquetes de esmeraldas (a través del cuadro de donación). Más sobre la reputación en la siguiente sección."
 				""
 				""
 			]
@@ -1550,7 +1550,7 @@
 			icon: "minecraft:feather"
 			x: 5.0d
 			y: -3.0d
-			description: ["Las habilidades pueden mejorar en gran medida su capacidad de supervivencia. La habilidad \"Dodge Roll\" se puede obtener a través de la primera misión del Guild Master, y se pueden aprender otras habilidades de combate de las misiones de los aldeanos de guardia. Busca aldeas para obtener estas útiles habilidades. La combinación de teclas \"Dodge\" se puede configurar y editar en la configuración de controles. Puedes aprender una habilidad haciendo clic con el botón derecho mientras la sostienes y equiparla a través del menú \"Editor de habilidades\" (configurable)."]
+			description: ["Las habilidades pueden mejorar en gran medida su capacidad de supervivencia. La habilidad \"Dodge Roll\" se puede obtener a través de la primera misión del Maestro del Gremio, y se pueden aprender otras habilidades de combate de las misiones de los aldeanos de guardia. Busca aldeas para obtener estas útiles habilidades. La combinación de teclas \"Dodge\" se puede configurar y editar en la configuración de controles. Puedes aprender una habilidad haciendo clic con el botón derecho mientras la sostienes y equiparla a través del menú \"Editor de habilidades\" (configurable)."]
 			dependencies: ["648C999659850F11"]
 			id: "76CA9142CEA54D1F"
 			tasks: [{

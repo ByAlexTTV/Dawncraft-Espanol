@@ -104,7 +104,7 @@
 		{
 			x: -2.5d
 			y: -6.0d
-			subtitle: "¿Dónde se puede encontrar un Guild Master?"
+			subtitle: "¿Dónde se puede encontrar un Maestro del Gremio?"
 			description: [
 				"GuildMaster no es una entidad separada del aldeano. En su lugar, es una profesión, alcanzable por cualquier aldeano (excepto nitwit). \\n"
 				"El bloque de profesión es la campana que se suele encontrar en las casas de gremio o en los puestos. Si encuentras un pueblo con un puesto sin un maestro de gremio, intenta esperar hasta el mediodía para que los aldeanos empiecen a conseguir trabajos. \\n"
@@ -115,7 +115,7 @@
 				id: "3900DF3E47ADF564"
 				type: "checkmark"
 				icon: "minecraft:writable_book"
-				title: "Guild Master"
+				title: "Maestro del Gremio"
 			}]
 		}
 		{
