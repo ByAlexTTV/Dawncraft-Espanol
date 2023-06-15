@@ -4,6 +4,10 @@ CurseForge|Versión del Modpack|Minecraft|Estado
 :-|:-|:-|:-
 [Modpack](https://www.curseforge.com/minecraft/modpacks/dawn-craft)|1.22_hf|1.18.2|*Activo*|
 
+# TUTORIAL
+[YouTube](https://www.youtube.com/watch?v=1Xi2RaDsUBs)
+
+
 ## Trabajo Realizado
 - Misiones de Aldeanos ---> 100%
 - FTBQuests ---> 100%
