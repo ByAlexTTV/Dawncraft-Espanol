@@ -2,7 +2,7 @@
 
 CurseForge|Versión del Modpack|Minecraft|Estado
 :-|:-|:-|:-
-[Modpack](https://www.curseforge.com/minecraft/modpacks/dawn-craft)|1.21_hf|1.18.2|*Activo*|
+[Modpack](https://www.curseforge.com/minecraft/modpacks/dawn-craft)|1.22_hf|1.18.2|*Activo*|
 
 ## Trabajo Realizado
 - Misiones de Aldeanos ---> 100%
