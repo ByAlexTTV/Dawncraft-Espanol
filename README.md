@@ -2,7 +2,7 @@
 
 CurseForge|Versión del Modpack|Minecraft|Estado
 :-|:-|:-|:-
-[Modpack](https://www.curseforge.com/minecraft/modpacks/dawn-craft)|1.23|1.18.2|*Activo*|
+[Modpack](https://www.curseforge.com/minecraft/modpacks/dawn-craft)|1.24|1.18.2|*Activo*|
 
 # TUTORIAL
 [YouTube](https://www.youtube.com/watch?v=1Xi2RaDsUBs)
