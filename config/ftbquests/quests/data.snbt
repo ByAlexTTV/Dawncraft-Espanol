@@ -1,6 +1,6 @@
 {
 	version: 13
-	title: "&5&lDawn&7Craft &6[ES] &f&nv 1.21_hf."
+	title: "&5&lDawn&7Craft &6[ES] &f&nv 1.24."
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"
