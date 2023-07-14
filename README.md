@@ -4,6 +4,8 @@ CurseForge|Versión del Modpack|Minecraft|Estado
 :-|:-|:-|:-
 [Modpack](https://www.curseforge.com/minecraft/modpacks/dawn-craft)|1.24|1.18.2|*Activo*|
 
+Aunque la versión sea más antigua que la versión actual del modpack funcionará igual.
+
 # TUTORIAL
 - [YouTube - Un Jugador](https://www.youtube.com/watch?v=1Xi2RaDsUBs)
 
