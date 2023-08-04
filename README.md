@@ -1,7 +1,7 @@
 # Dawncraft Español
 
 CurseForge|Estado
-:-|:-|:-|:-
+:-|:-
 [Modpack](https://www.curseforge.com/minecraft/modpacks/dawn-craft)|*Activo*|
 
 Aunque la versión sea más antigua que la versión actual del modpack funcionará igual.
