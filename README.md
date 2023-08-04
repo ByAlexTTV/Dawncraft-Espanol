@@ -1,8 +1,8 @@
 # Dawncraft Español
 
-CurseForge|Versión del Modpack|Minecraft|Estado
+CurseForge|Estado
 :-|:-|:-|:-
-[Modpack](https://www.curseforge.com/minecraft/modpacks/dawn-craft)|1.24|1.18.2|*Activo*|
+[Modpack](https://www.curseforge.com/minecraft/modpacks/dawn-craft)|*Activo*|
 
 # TUTORIAL
 - [YouTube - Un Jugador](https://www.youtube.com/watch?v=1Xi2RaDsUBs)
